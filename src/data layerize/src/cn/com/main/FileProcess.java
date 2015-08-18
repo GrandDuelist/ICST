@@ -19,16 +19,17 @@ public class FileProcess {
 	/**
 	 * the failed and duplicated files names
 	 */
-	public static final String FAILED_FILE = "/home/ogre/Desktop/tcp/R/failed.txt";
-	public static final String DUPLICATED_FILE = "/home/ogre/Desktop/tcp/R/duplicated.txt";
-	public static final String OUTPUT_DIR = "/home/ogre/Desktop/result/";
-	public static final String OUTPUT_DIR2 = "/home/ogre/Desktop/cluster/";
+	public static final String DATA_DIR = "../../data/";
+	public static final String FAILED_FILE = "./failed.txt";
+	public static final String DUPLICATED_FILE = "./duplicated.txt";
+	public static final String OUTPUT_DIR = DATA_DIR+"result/";
+	public static final String OUTPUT_DIR2 = DATA_DIR+"cluster/";
 
 	/**
 	 * the files after preprocessing
 	 */
-	public static final String DIR_AFT_PRE = "/home/ogre/Desktop/web_lscp/data/lda_input_steps_to_perform";
-	public static final String DIR_BEFORE_PRE = "/home/ogre/Desktop/web_lscp/data/lda_input";
+	public static final String DIR_AFT_PRE = DATA_DIR+"lda_input_steps_to_perform";
+	public static final String DIR_BEFORE_PRE = DATA_DIR+"lda_input";
 
 	/**
 	 * file test cases names
@@ -85,7 +86,7 @@ public class FileProcess {
 		// this.showOriginalResult();
 		this.filterPrepro();
 		
-		String outputDirname  = "/home/ogre/Desktop/web_lscp/data/";
+		String outputDirname  = DATA_DIR;
 		this.showAllFetureResult(this.befPreproTestCases, "original_data.txt",outputDirname);
 		this.showAllFetureResult(this.aftPreproTestCases, "after_preprocessing_data.txt", outputDirname);
 	}

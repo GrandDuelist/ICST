@@ -19,7 +19,7 @@ public class Test {
 		testcase.setTestCaseString("hello");
 		System.out.println(nihaos.get(0).getTestCaseString());*/
 	   
-	     Process process = Runtime.getRuntime().exec ("ls /home/ogre/");   
+	     Process process = Runtime.getRuntime().exec ("ls /home/");   
 	      
 	     InputStreamReader ir=new InputStreamReader(process.getInputStream());  
 	     LineNumberReader input = new LineNumberReader (ir);  

@@ -25,7 +25,7 @@ public class TerraceProcess extends FileProcess {
 		this.setEveryVersionAfterPrepro();
 		this.processTerraceFeatures();
 		
-		String outputDirname  = "/home/ogre/Desktop/web_lscp/data/";
+		String outputDirname  = FileProcess.DATA_DIR;
 		this.showTerraceResult("terrace.txt", outputDirname);
 		
 		this.check();

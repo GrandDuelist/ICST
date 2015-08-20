@@ -4,7 +4,7 @@ import java.io.File;
 
 public class EmptyClean {
 		
-	public static String FILE_PATH = "/home/ogre/Desktop/cluster/";
+	public static String FILE_PATH = "../../data/cluster/";
 	
 		public EmptyClean(){
 			

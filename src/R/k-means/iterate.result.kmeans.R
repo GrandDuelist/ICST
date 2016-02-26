@@ -17,7 +17,7 @@ iterate.result.kmeans <- function(s=NULL,  # If calling this function a second t
   
   #names <- c("13","30","35","40","50","60","80","70","90","10","11","12","36");
   
-  names <- c("40","50","60","80","70","90","10","11","12","36");
+  names <- c("35");
   apfds <-matrix(nrow=length(names),ncol=iT);
   for(m in 1:length(names)){
     top_dir = "../../../data/"

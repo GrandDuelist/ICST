@@ -221,7 +221,7 @@
 # }
 
 .distinctLength <- function(clusterList,init_tclist_data){
-  if(length(clusterList)>3){
+  if(length(clusterList)>5){
       return(length(clusterList));
   }else{
     return(2)

@@ -11,19 +11,20 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
                         maximization, # max. algorithm to use (greedy or clustering)
                         rerunLDA=FALSE, # Should we rerun LDA, if it's already been run?
                         verbose=FALSE,
-                        iT=30,
+                        iT=1,
                         method="cluster_string")
 {
   
-  names <- c("36","30","35","40","50","60","80","70","90","10","11","12","13");
+  #names <- c("36","30","35","40","50","60","80","70","90","10","11","12","13");
+  names <- c("rrr")
   #names <- c("80");
   apfds <-matrix(nrow=length(names),ncol=iT);
   for(m in 1:length(names)){
-    testDir2=paste("../../web_lscp/data/lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
-    clusterDir2=paste("../../cluster/litmus_",names[m],"/",sep="");
+    testDir2=paste("../../data/lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
+    clusterDir2=paste("../../data/cluster/litmus_",names[m],"/",sep="");
     
     #testDir2=paste(testDir2,"/",sep="");
-    truthName2=paste("../../web_lscp/data/fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
+    truthName2=paste("../../data/fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
     
     #truthName2=(truthName2,"/fault_matrix.txt");
     dirname = paste("result/",kDir,sep="");
@@ -49,10 +50,13 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
       }else if(method=="cluster_string")
       {
         tcp <- string.cluster(testDir=testDir2,truthName=truthName2, testDirCluster = clusterDir2);
+      }else if(method=='lda')
+      {
+        tcp <- string.cluster(testDir=testDir2,truthName=truthName2, testDirCluster = clusterDir2);
       }
       #topic <- tcp.lda(testDir,K,truthName);
       apfds[m,n] <- tcp$apfd;
-     # print(tcp$apfd)
+       print(tcp$apfd)
       
       
     }
@@ -60,7 +64,7 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
     apfds[m,]=sort(apfds[m,])
  #   print( apfds[m,]);
     
-   # print('medium:');
+    print('medium:');
     
     medium_point=(iT+1)/2;
     if(is.integer(medium_point))
@@ -79,12 +83,12 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
 }
 
 
-iterate.cluster.all <- function(itNum=30)
+iterate.cluster.all <- function(itNum=100)
 {
   
   
- # methods=c("cluster_string","cluster_random","string","random");
-  methods=c("cluster_random");
+  methods=c("cluster_string","cluster_random","string","random","lda");
+  #methods=c("random");
   for(i in 1:length(methods)){
     
     dirName = paste(methods[i],"/",sep="")

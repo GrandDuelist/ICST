@@ -39,6 +39,7 @@ random.cluster <- function(s = NULL,
     temp = NULL
     testDirWhole = paste(testDirCluster,subDirs[i],"/",sep="")
     #print(testDirWhole)
+    #print(testDirWhole)
     temp$files     <- Corpus(DirSource(testDirWhole))
     temp$howManyTests <- length(temp$files)
     temp$whichToTry  <- sample(1:temp$howManyTests)
@@ -118,6 +119,7 @@ string.cluster <- function(s = NULL,
     #print(subDirs[i])
     temp = NULL
     testDirWhole = paste(testDirCluster,subDirs[i],"/",sep="")
+    #print(testDirWhole)
      tempfiles    <- Corpus(DirSource(testDirWhole))
     if(length(tempfiles)>1){
     

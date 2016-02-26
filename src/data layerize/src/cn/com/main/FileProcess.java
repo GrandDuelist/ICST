@@ -23,12 +23,15 @@ public class FileProcess {
 	public static final String FAILED_FILE = "./failed.txt";
 	public static final String DUPLICATED_FILE = "./duplicated.txt";
 	public static final String OUTPUT_DIR = DATA_DIR+"result/";
-	public static final String OUTPUT_DIR2 = DATA_DIR+"cluster/";
+	
+	//cluster 的输出
+	public static final String OUTPUT_DIR2 = DATA_DIR+"rr_cluster/";
 
 	/**
 	 * the files after preprocessing
 	 */
-	public static final String DIR_AFT_PRE = DATA_DIR+"lda_input_steps_to_perform";
+	//cluster 的输入
+	public static final String DIR_AFT_PRE = DATA_DIR+"rr_lda_input";
 	public static final String DIR_BEFORE_PRE = DATA_DIR+"lda_input";
 
 	/**
@@ -46,23 +49,25 @@ public class FileProcess {
 	// summaries
 	public List<Summary> duplicateSummaries = new ArrayList<Summary>();
 
-	/*public String versions[] = { "V10", "V11", "V12", "V13", "V14", "V20",
+	public static String versions[] = { "V20",
 			"V30", "V35", "V36", "V36_complete_web", "V40", "V50", "V60",
-			"V70", "V80", "V90" };
-	public String versions_orig[] = { "litmus_10", "litmus_11", "litmus_12",
-			"litmus_13", "litmus_14", "litmus_20", "litmus_30", "litmus_35",
+			"V70", "V80", "V90", "V10", "V11", "V12", "V13", "V14"};
+	
+	public static String versions_orig[] = {  "litmus_20", "litmus_30", "litmus_35",
 			"litmus_36", "litmus_36_complete_WEB", "litmus_40", "litmus_50",
-			"litmus_60", "litmus_70", "litmus_80", "litmus_90" };*/
+			"litmus_60", "litmus_70", "litmus_80", "litmus_90", "litmus_10", "litmus_11", "litmus_12",
+			"litmus_13", "litmus_14"};
 	
 	
-	public static String versions[] = {  "V20",
-			"V30", "V35", "V36",  "V40", "V50", "V60",
-			"V70", "V80", "V90","V10", "V11", "V12", "V13", "V14","V36_complete_web"};
+/*	public static String versions[] = {  "V20",
+			"V30", "V35", "V36",  "V40", "V50"};
+//			, "V60",
+//			"V70", "V80", "V90","V10", "V11", "V12", "V13", "V14","V36_complete_web"};
 	public static String versions_orig[] = { "litmus_20", "litmus_30", "litmus_35",
-			"litmus_36",  "litmus_40", "litmus_50",
-			"litmus_60", "litmus_70", "litmus_80", "litmus_90","litmus_10", "litmus_11", "litmus_12",
-			"litmus_13", "litmus_14", "litmus_36_complete_WEB"};
-
+			"litmus_36",  "litmus_40", "litmus_50"};
+//			"litmus_60", "litmus_70", "litmus_80", "litmus_90","litmus_10", "litmus_11", "litmus_12",
+//			"litmus_13", "litmus_14", "litmus_36_complete_WEB"};
+*/
 	public int versionsAll[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
 	public int versionsFail[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 			0 };
@@ -71,6 +76,10 @@ public class FileProcess {
 			0, 0 };
 	public int fileNumAfPrepro[] = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
 			0, 0 };
+/*	public int versionsAll[] = { 0, 0, 0, 0, 0, 0};
+	public int versionsFail[] = { 0, 0, 0, 0, 0, 0};
+	public int fileNumBefPrepro[] = { 0, 0, 0, 0, 0, 0};
+	public int fileNumAfPrepro[] = { 0, 0, 0, 0, 0, 0};*/
 
 	public FileProcess() {
 

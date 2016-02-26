@@ -41,40 +41,42 @@ measureA <- function(a,b){
 
 myMeasureATran <-function()
 {
-  versions <- c("litmus_30","litmus_35","litmus_36","litmus_40");
+#  versions <- c("litmus_30","litmus_35","litmus_36","litmus_40");
                 #,"litmus_50",
                 #"litmus_60","litmus_70","litmus_80","litmus_90","litmus_10",
                 #"litmus_11","litmus_12","litmus_13");
+  fileDir = "../../data/result/result_100times/icst_result.xlsx";
+  versions = sheetNames(fileDir)
   
   results = list();
   output_result = matrix(ncol = 13, nrow = 4);
   names = c("random","TextDiversity","TopicCoverage","RiskDrivenRandom","RiskDrivenDiverse","measureA(RDD&R)",
             "measureA(RDD&TD)","measureA(RDD&TC)","measureA(RDD&RR)","p(RDD&R)", "p(RDD&TD)","p(RDD&TC)","p(RDD&RR)");
   colnames(output_result) <- names;
-  rownames(output_result) <-versions;
+  rownames(output_result) <-versions[1:4];
   
-  
+ 
   for(i in 1:4){
     version = versions[i];
-    result <- read.xls("../data/result/result_100.xls",sheet=version);
-  
+    result <- read.xls(fileDir,sheet=version);
+    
     title = paste("APFD of ", version,sep="");
-
+    print(result$random)
     output_result[i,1] <- median(result$random);
     output_result[i,2] <- median(result$string);
-    output_result[i,3] <- median(result$lda);
+    output_result[i,3] <- median(result$lda_greedy);
     output_result[i,4] <- median(result$cluster_random);
     output_result[i,5] <- median(result$cluster_string);
     
     output_result[i,6] <- measureA(result$cluster_string,result$random);
     output_result[i,7] <- measureA(result$cluster_string,result$string);
-    output_result[i,8] <- measureA(result$cluster_string,result$lda);
+    output_result[i,8] <- measureA(result$cluster_string,result$lda_greedy);
     output_result[i,9] <- measureA(result$cluster_string,result$cluster_random);
     
     test <- wilcox.test(result$cluster_string,result$random)
     output_result[i,10] <- wilcox.test(result$cluster_string,result$random)$p.value;
     output_result[i,11] <- wilcox.test(result$cluster_string,result$string)$p.value;
-    output_result[i,12] <- wilcox.test(result$cluster_string,result$lda)$p.value;
+    output_result[i,12] <- wilcox.test(result$cluster_string,result$lda_greedy)$p.value;
     output_result[i,13] <- wilcox.test(result$cluster_string,result$cluster_random)$p.value;
     
     
@@ -89,39 +91,42 @@ print(output_result)
 
 myMeasureARapid <-function()
 {
-  versions <- c("litmus_50",
-  "litmus_60","litmus_70","litmus_80","litmus_90","litmus_10",
-  "litmus_11","litmus_12","litmus_13");
+  #versions <- c("litmus_50",
+  #"litmus_60","litmus_70","litmus_80","litmus_90","litmus_10",
+  #"litmus_11","litmus_12","litmus_13");
+  fileDir = "../../data/result/result_100times/icst_result.xlsx";
+  versions = sheetNames(fileDir)
   
   results = list();
   output_result = matrix(ncol = 13, nrow = 9);
   names = c("random","TextDiversity","TopicCoverage","RiskDrivenRandom","RiskDrivenDiverse","measureA(RDD&R)",
             "measureA(RDD&TD)","measureA(RDD&TC)","measureA(RDD&RR)","p(RDD&R)", "p(RDD&TD)","p(RDD&TC)","p(RDD&RR)");
   colnames(output_result) <- names;
-  rownames(output_result) <-versions;
+  rownames(output_result) <-versions[5:13];
   
   
   for(i in 1:9){
-    version = versions[i];
-    result <- read.xls("../data/result/result_100.xls",sheet=version);
+    version = versions[i+4];
+    print(version)
+    result <- read.xls(fileDir,sheet=version);
     
     title = paste("APFD of ", version,sep="");
     
     output_result[i,1] <- median(result$random);
     output_result[i,2] <- median(result$string);
-    output_result[i,3] <- median(result$lda);
+    output_result[i,3] <- median(result$lda_greedy);
     output_result[i,4] <- median(result$cluster_random);
     output_result[i,5] <- median(result$cluster_string);
     
     output_result[i,6] <- measureA(result$cluster_string,result$random);
     output_result[i,7] <- measureA(result$cluster_string,result$string);
-    output_result[i,8] <- measureA(result$cluster_string,result$lda);
+    output_result[i,8] <- measureA(result$cluster_string,result$lda_greedy);
     output_result[i,9] <- measureA(result$cluster_string,result$cluster_random);
     
     test <- wilcox.test(result$cluster_string,result$random)
     output_result[i,10] <- wilcox.test(result$cluster_string,result$random)$p.value;
     output_result[i,11] <- wilcox.test(result$cluster_string,result$string)$p.value;
-    output_result[i,12] <- wilcox.test(result$cluster_string,result$lda)$p.value;
+    output_result[i,12] <- wilcox.test(result$cluster_string,result$lda_greedy)$p.value;
     output_result[i,13] <- wilcox.test(result$cluster_string,result$cluster_random)$p.value;
     
     

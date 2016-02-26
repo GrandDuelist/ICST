@@ -1,4 +1,4 @@
-iterate.cluster <- function(s=NULL,  # If calling this function a second time, this should be
+iterate.result.kmeans <- function(s=NULL,  # If calling this function a second time, this should be
                         # resulting object of the first
                         testDir=NULL,  # Name of the directory with the preprocessed test files
                         testNamesMap=NULL,  # testing map
@@ -11,27 +11,28 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
                         maximization, # max. algorithm to use (greedy or clustering)
                         rerunLDA=FALSE, # Should we rerun LDA, if it's already been run?
                         verbose=FALSE,
-                        iT=1,
+                        iT=30,
                         method="cluster_string")
 {
   
-  #names <- c("36","30","35","40","50","60","80","70","90","10","11","12","13");
-  names <- c("rrr")
-  #names <- c("80");
+  #names <- c("13","30","35","40","50","60","80","70","90","10","11","12","36");
+  
+  names <- c("35");
   apfds <-matrix(nrow=length(names),ncol=iT);
   for(m in 1:length(names)){
-    testDir2=paste("../../data/lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
-    clusterDir2=paste("../../data/cluster/litmus_",names[m],"/",sep="");
+    top_dir = "../../../data/"
+    testDir2=paste(top_dir,"lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
+    clusterDir2=paste(top_dir,"cluster/litmus_",names[m],"/",sep="");
     
     #testDir2=paste(testDir2,"/",sep="");
-    truthName2=paste("../../data/fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
+    truthName2=paste(top_dir,"fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
     
     #truthName2=(truthName2,"/fault_matrix.txt");
-    dirname = paste("result/",kDir,sep="");
+    dirname = paste(top_dir,"result/",kDir,sep="");
     if(!file.exists(dirname)){
       dir.create(dirname);
     }
-    filename = paste("result/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
+    filename = paste(top_dir,"result/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
     sink(filename);
     
     for(n in 1:iT)
@@ -50,19 +51,22 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
       }else if(method=="cluster_string")
       {
         tcp <- string.cluster(testDir=testDir2,truthName=truthName2, testDirCluster = clusterDir2);
-      }else if(method=='lda')
-      {
-        tcp <- string.cluster(testDir=testDir2,truthName=truthName2, testDirCluster = clusterDir2);
+      }else if(method=="lda_coverage"){
+	tcp <-tcp.lda(testDir=testDir2,truthName=truthName2,maximization="max",K=5);
+      }else if(method=="lda_greedy"){
+      	tcp <-tcp.lda(testDir=testDir2,truthName=truthName2,maximization="greedy",K=5);
+      }else if(method=="kmeans"){
+          tcp <-tcp.kmeans(testDir=testDir2,truthName=truthName2);
       }
       #topic <- tcp.lda(testDir,K,truthName);
       apfds[m,n] <- tcp$apfd;
-       print(tcp$apfd)
+     # print(tcp$apfd)
       
       
     }
     
     apfds[m,]=sort(apfds[m,])
- #   print( apfds[m,]);
+    print( apfds[m,]);
     
     print('medium:');
     
@@ -76,22 +80,21 @@ iterate.cluster <- function(s=NULL,  # If calling this function a second time, t
     
     print(medium);
     sink();
-    
-    
   }
   apfds
 }
 
 
-iterate.cluster.all <- function(itNum=100)
+iterate.result.all.kmeans <- function(itNum=10)
 {
   
   
-  methods=c("cluster_string","cluster_random","string","random","lda");
-  #methods=c("random");
+ #methods=c("string","random","lda_coverage","lda_greedy","cluster_string","cluster_random");
+  #methods=c("cluster_string","cluster_random");
+  methods=c("kmeans");
   for(i in 1:length(methods)){
-    
     dirName = paste(methods[i],"/",sep="")
-    iterate.cluster(iT=itNum,method=methods[i],kDir=dirName);
+    iterate.result.kmeans(iT=itNum,method=methods[i],kDir=dirName);
   }
 }
+

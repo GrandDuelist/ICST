@@ -29,7 +29,8 @@ tcp.lda <- function(
             iter=200,   # LDA parameter number of iterations
             alpha=0.1,  # LDA parameter alpha
             beta=0.1,  #LDA parameter beta                        
-            distance="manhattan",  # distance measure to use (passed to dist())
+           # distance="manhattan",  # distance measure to use (passed to dist())
+            distance="euclidean",
             maximization="max" , # max. algorithm to use (greedy or clustering)
             rerunLDA=FALSE, # Should we rerun LDA, if it's already been run?
             verbose=FALSE){

@@ -21,17 +21,17 @@ iterate.result <- function(s=NULL,  # If calling this function a second time, th
   for(m in 1:length(names)){
     top_dir = "../../data/"
     testDir2=paste(top_dir,"lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
-    clusterDir2=paste(top_dir,"cluster/litmus_",names[m],"/",sep="");
+    clusterDir2=paste(top_dir,"cluster_reverse/litmus_",names[m],"/",sep="");
     
     #testDir2=paste(testDir2,"/",sep="");
     truthName2=paste(top_dir,"fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
     
     #truthName2=(truthName2,"/fault_matrix.txt");
-    dirname = paste(top_dir,"result/",kDir,sep="");
+    dirname = paste(top_dir,"result_reverse/",kDir,sep="");
     if(!file.exists(dirname)){
       dir.create(dirname);
     }
-    filename = paste(top_dir,"result/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
+    filename = paste(top_dir,"result_reverse/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
     sink(filename);
     
     for(n in 1:iT)
@@ -51,7 +51,7 @@ iterate.result <- function(s=NULL,  # If calling this function a second time, th
       {
         tcp <- string.cluster(testDir=testDir2,truthName=truthName2, testDirCluster = clusterDir2);
       }else if(method=="lda_coverage"){
-	tcp <-tcp.lda(testDir=testDir2,truthName=truthName2,maximization="max",K=5);
+	tcp <-tcp.lda(testDir=testDir2,truthName=truthName2,maximization="max",K=15);
       }else if(method=="lda_greedy"){
       	tcp <-tcp.lda(testDir=testDir2,truthName=truthName2,maximization="greedy",K=5);
       }
@@ -63,6 +63,7 @@ iterate.result <- function(s=NULL,  # If calling this function a second time, th
     }
     
     apfds[m,]=sort(apfds[m,])
+    
     print( apfds[m,]);
     
     print('medium:');
@@ -82,12 +83,13 @@ iterate.result <- function(s=NULL,  # If calling this function a second time, th
 }
 
 
-iterate.result.all <- function(itNum=10)
+iterate.result.all <- function(itNum=100)
 {
   
   
  #methods=c("string","random","lda_coverage","lda_greedy","cluster_string","cluster_random");
   methods=c("cluster_string","cluster_random");
+  #methods=c("lda_greedy")
   #methods=c("cluster_random");
   for(i in 1:length(methods)){
     

@@ -16,5 +16,18 @@ tcp.kmeans <- function(s=NULL,
   }
   
   .preComputeKmeans(s);
+
+
+  if (!is.null(s$truth_inverse)){
+      if (verbose==TRUE){
+          cat(sprintf("Evaluating results using ground truth...\n"))
+      }
+      .evaluate(s)
+  }
+
+  if (verbose==T){
+      cat(sprintf("Done.\n"))
+  }
+    
   s
 }

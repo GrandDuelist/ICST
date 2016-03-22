@@ -22,16 +22,16 @@ public class FileProcess {
 	public static final String DATA_DIR = "../../data/";
 	public static final String FAILED_FILE = "./failed.txt";
 	public static final String DUPLICATED_FILE = "./duplicated.txt";
-	public static final String OUTPUT_DIR = DATA_DIR+"result/";
+	public static final String OUTPUT_DIR = DATA_DIR+"m_result/";
 	
 	//cluster 的输出
-	public static final String OUTPUT_DIR2 = DATA_DIR+"rr_cluster/";
+	public static final String OUTPUT_DIR2 = DATA_DIR+"nhdb_cluster/";
 
 	/**
 	 * the files after preprocessing
 	 */
 	//cluster 的输入
-	public static final String DIR_AFT_PRE = DATA_DIR+"rr_lda_input";
+	public static final String DIR_AFT_PRE = DATA_DIR+"lda_input_steps_to_perform";
 	public static final String DIR_BEFORE_PRE = DATA_DIR+"lda_input";
 
 	/**
@@ -49,6 +49,8 @@ public class FileProcess {
 	// summaries
 	public List<Summary> duplicateSummaries = new ArrayList<Summary>();
 
+	// HBD
+	
 	public static String versions[] = { "V20",
 			"V30", "V35", "V36", "V36_complete_web", "V40", "V50", "V60",
 			"V70", "V80", "V90", "V10", "V11", "V12", "V13", "V14"};
@@ -57,7 +59,14 @@ public class FileProcess {
 			"litmus_36", "litmus_36_complete_WEB", "litmus_40", "litmus_50",
 			"litmus_60", "litmus_70", "litmus_80", "litmus_90", "litmus_10", "litmus_11", "litmus_12",
 			"litmus_13", "litmus_14"};
+
 	
+	
+	//NHBD
+//	public static String versions[] = {"V14","V13","V12","V11","V10","V90","V80","V70","V60","V50","V40","V36_complete_web","V36","V35","V30","V20"};
+//	public static String versions_orig[] = { "litmus_14","litmus_13","litmus_12","litmus_11","litmus_10","litmus_90","litmus_80","litmus_70","litmus_60","litmus_50",
+//		"litmus_40", "litmus_36_complete_WEB","litmus_36","litmus_35","litmus_30","litmus_20"};
+//	
 	
 /*	public static String versions[] = {  "V20",
 			"V30", "V35", "V36",  "V40", "V50"};
@@ -365,6 +374,7 @@ public class FileProcess {
 		
 		public TestCase isInDuplicatedOrig(String testcaseName) {
 			int index = getIndexOfOrigVersion(this.versionName);
+			System.out.println(this.versionName);
 			// System.out.println(this.versionName);
 			// System.out.println(index);
 			for (int i = 0; i < duplicateTestCaseEachVersionOrig[index].size(); i++) {
@@ -546,7 +556,7 @@ public class FileProcess {
 		// get the versions
 		File subDirsBefPrepro[] = dirBefPrepro.listFiles();
 		File subDirsAftPrepro[] = dirAftPrepro.listFiles();
-
+		
 		// set list of version
 		this.setFileNameList(subDirsBefPrepro, subDirsAftPrepro);
 
@@ -574,7 +584,7 @@ public class FileProcess {
 			current.setFetures();
 			this.befPreproTestCases.add(current);
 		}
-
+		
 		// process each version preprocessing data
 		for (int i = 0; i < subDirsAftPrepro.length; i++) {
 			String versionName = subDirsAftPrepro[i].getName();
@@ -629,6 +639,7 @@ public class FileProcess {
 			for (int j = 0; j < summary.getTestCases().size(); j++) {
 				TestCase testcase = summary.getTestCases().get(j);
 				// System.out.println(summary.getSummaryString()+"\t"+testcase.getTestCaseString()+"\t"+testcase.getVersion()+"\t"+testcase.getStatus());
+		
 				this.versionsAll[this.getIndexOfVersion(testcase.getVersion())]++;
 				if (previousFail) {
 					testcase.setHasPreviousFailed(true);

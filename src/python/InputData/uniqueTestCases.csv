@@ -1,0 +1,1678 @@
+lastDir should override download.Dir when useDownloadDir is |false|
+Using the App/Run from Shortcut: Set and Confirm Firefox as default browser on Vista
+Select all and copy text from output console's
+Paused download - Cancel
+Switching tabs using the keyboard (using Tab button)
+"[sessionstore] Window history, Close window before loaded"
+Quick Find forward and backwards
+Open a bookmark in a new tab in the foreground.
+Verify no session data lost if the option to clear browsing history upon shutdown set
+Verify that the downloads are removed/restored from/in the Download Panel
+[awesombar] Address Field and Go button
+Drag and Drop Multiple Items in Library
+Verify the context menu items of a canceled download
+Verify JavaScript Advanced Options
+Tags - Add a bookmark via drag-and-drop into tag folder
+Confirm Passwords don't reappear after being deleted when using search
+Drag a tab to a different window
+Book a trip
+Ensure referrer TLD information stays when resuming downloads
+[groups] New tabs are located in the last active group after restart
+[security:certificates] Date Issued
+[awesomebar] Autocomplete displays maximum 6 results
+Use the new tab page in full screen
+[search:manager] Manage search engine (Remove)
+"[Mac] Shouldn't show .app in application name using ""Open with"""
+Navigating the search box with the mouse
+Verify dragging a URL to the tabbar does not load it in multiple tabs
+Completed download - timestamp/date
+"Verify Share Location ""Block"" pref in Page Info"
+[pseudoClassLock] Menus
+[Vista] Confirm Default Browser information in Default Programs after update
+"Pages without titles should have their URL as their title, and shouldn't be clipped in autocomplete results"
+Use Organize tool to move Library items
+Load tab page instantly
+Detach tab by drag and dropping onto its own content area
+Clear Search data in Show Cookies dialog
+Turn off displaying images
+[Windows] Open a PDF file in Firefox using Adobe
+[security:certificates] Add exception from error page
+Home button
+[Win Vista] Test applying updates on a Windows Vista machine for an Administrator account while the UAC is off
+[security] HTTPS framesets should display error page
+[Windows] Pave over install ->  2.0.x over 1.5.0.x in same directory
+Confirm clearing Offline website data using Clear Private Data
+Extension buttons are still operational during popdowns
+Middle-Click on suggestion should open results in a new tab
+Install an extension
+"Verify ""Close it when downloads are finished"""
+[sessionstore] Restore all windows
+Open Page Info
+[Bookmarks] Open bookmarks from all interfaces.
+Cancelled download - Retry
+[addons:plugins] Disable a Plugin
+[addons:manager] Installation of Extensions and Themes via the Install Button
+Keyword search when location bar DNS failure
+Unvisited bookmarks should appear in autocomplete dropdown
+Verify import of bookmarks from an HTML file
+Tags - Add multiple tags to a bookmark - 'check-box' via bookmark edit dialog
+Verify columns can be resized.
+Remove an RSS feed/Livemark
+Verify extension and theme context menu
+"Failed Downloads: Not triggering ""pending-dialog"" warning"
+Confirm Firefox Help points to SUMO
+[sessionstore] Restore Start Page
+[groups] Toggling group view
+Empty URL should not be auto-completed
+Tags - Remove multiple tags from a bookmark - 'delete text' via bookmark edit dialog
+"Check anti-phishing warning ""Get me out of here"""
+Content Handling - Use Local Mail Client
+"Confirm ""Why was this site blocked"" details page"
+disable safebrowsing
+Confirm Content Encoding Error Page
+Check accepting the Anti-Phishing Privacy Policy
+Disable Plug-ins file type
+[security:addons] Dismiss add-on installation warning
+[sessionstore] Window order
+[sessionstore] Tab remember across multiple closes
+Memory usage check
+[search] Add a search engine (start using it right away)
+Autocomplete using https://
+[search:manager] Manage search engines (Restore Defaults)
+Completed download - Open
+[groups] Undo Close Group
+Migrate from Opera
+Search - Confirm search within bookmarks works in sidebar and Library
+Tags - Remove multiple tags from a bookmark - 'delete text' in the Library
+Case-insensitive search results
+Confirm that big images redraw properly
+"Confirm ""Know Your Rights"" Infobar launches on first run"
+Active download - context menus
+Open a new tab in fullscreen mode
+"[apptabs] Verify ""Move to New Window"" functionality"
+Tags - Verify undo after deletion of tagged bookmarks
+Verify that bookmarks can be opened from all standard points.
+Verify various Printing preview functionality
+Install the Viewpoint Media Player
+Look for detail pane re-sizing between different items
+Ensure focus is retained when closing last tab
+Confirm Full Screen mode
+Skip video positioning
+[groups] Tab search filter
+Middle-click on search bar results should open in a new tab
+Save a web page
+Main Menu: Edit items
+[Windows] Verify Firefox Button turns purple in Private Browsing mode
+Verify that custom keywords for bookmarks can be created and browsed to.
+Confirm reloading all tabs shows progress in All Tabs pop-up
+Paused download - Search
+Confirm Availability of Help in Options/Preferences
+Various file types/handling
+Scroll using the up/down buttons of the scrollbar
+Default browser setting (Check Now)
+Start a new session after Abnormal Termination
+Check Reported Web Forgery Warning
+[awesomebar:tabmatches] Switch to Tab from Sync
+T Shirt shopping using AJAX
+Confirm that Clear Private Data does not trigger master password prompt
+Completed download - Remove - Pre-select next file
+[addons:manager] Verify Elements of the Add-ons Manager
+[security] Disable all warnings
+Domain autocomplete suggestions (cheese.livejournal.com)
+Verify Tab context: Reload Tab reloads the Tab
+Verify caret browsing
+Verify Clean Up downloads
+[prefsUI] Open and dismiss Preferences dialog
+Tags - Drag n drop a tag container to the bookmarks toolbar
+Open a live bookmark in set of new tabs in the foreground.
+Save your tabs for next time (Quit)
+Confirm Backbase Travel demo
+Search suggestions
+Indicate first match in both title and URL
+Install Mozilla Maintenance Service on a Standard Setup type
+[Bookmarks: Tags] Add a tag to a bookmark - 'typed text' via bookmark edit dialog
+[awesomebar:tabmatches] Switch to Tab with multiple results
+[search] Autodiscovery of OpenSearch search engines
+[search] Verify dragging text to the Search bar
+restore form - non-ssl and ssl PRIVACY_FULL
+[pseudoClassLock] Checkboxes
+Get Addon: Install Multiple Extensions
+Downloads manager: context menu
+Clearing Cookies/Individual Cookies
+Verify that Show Downloads History takes you to the Downloads category in the Library window.
+[awesomebar:tabmatches] Switch to Tab location bar appearance
+Tags - Add tags to multiple bookmarks - 'check-box' in the Library
+[History] Open history items from the sidebar
+Download Manager History preference
+Verify Firefox Button on by default for Windows Vista/Win 7
+Links from other applications - new tab (assumes Firefox is set as the system default browser)
+Extension or Theme About
+Confirm tab bar resumes scrolling when moving off button and back
+Open and dismiss the Options (Preferences) dialog
+[safari-migration] Run Firefox 14 for the first time import window - Safari is running
+[sessionstore] Save your tabs for next time (Quit)
+[geolocation] Verify geolocation token is cleared when exiting private browsing
+[awesomebar:tabmatches] Switch to Tab in another window
+Paused download - Resume
+Pin/unpin the document navigation panel
+[sessionstore] Close Firefox before all saved tabs are loaded
+Verify handling of RSS 0.91 feed
+Add a new bookmark in Library
+Setup and Import settings from an existing browser into Firefox
+Auto-renaming/opening of identically named files
+[addons:manager] Release Notes for Add-ons Updates
+Blank/empty/0-byte files
+Add a MozSearch plugin
+Verify Tab context: Close Tab closes the tab
+Location bar search
+Star icon shouldn't be set for items in RSS / Live Bookmarks
+Verify Passwords aren't saved when the pref to do so is turned off.
+Verify Error Console is cleared when leaving the private browsing mode
+"""A few seconds left"" progress/status"
+Verify that a bookmark can be set to open in the sidebar.
+Search
+Control volume and mute
+[groups] Resizing a tab set
+Standard installation.
+Verify that bookmarks drag and drop to another point locally to its own standard point
+Prompt to install PDF Viewer addon
+Verify Tab context: Close Other Tabs closes all other tabs
+[Mac] Verify open windows show when context clicking on Dock Icon
+Back button and Forward button step through Library history
+Apply software update should display Restart Confirmation
+Reorder search engines - Drag and Drop
+Migrate from System Default Browser
+[sessionstore:panorama] Restore to panorama view after restart
+Console response to mouse events is accurate
+Sorting Cookies by Site
+Verify Print selection functionality
+[pseudoClassLock] Copy HTML
+Add a bookmark
+Open search results in a new tab
+Tagged bookmarks show only as tagged in the URL bar dropdown
+SWF (Shockwave Flash) file
+[security] Bogus Content Warning when image fails to load
+[clean up profile] Reset Firefox with a rich profile
+Confirm dragging a link/favicon to folder on Bookmarks Toolbar
+[security:safebrowsing] check safebrowser server names
+Verify geolocation token is cleared after allowing permissions via Page Info
+verify tab tear off onto another window when using tab scrolling
+Confirm Print-selection output is correct when print scaling
+Software Installation Warning
+Globally decay adaptive input history to allow for new entries
+"Queued / ""Starting ..."" downloads: cancel context menu"
+Macintosh Firefox application menu
+[security] Security notification
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox 14.0 bytes"
+safebrowsing data download progress
+Main Menu: Tools items
+Get Add-ons Tab
+Allow all popups
+Verify autocomplete functionality when setting a user-specified home page
+Active download - Go to Download Page
+"Larry UI - Identify verified, site operator unknown (blue icon)"
+[safari-migration] Show All Bookmarks import window - Safari is not running
+Verify opening history items
+Verify creating a new folder works in all standard points
+[awesomebar:tabmatches] Switch to Tab using discrete URL
+Verify downloads are directed to the default location
+Quit Firefox
+Make a typo when typing in the Location Bar
+Main Menu: File items
+Verify add a new toolbar
+Add a search engine (start using it right away)
+Verify changes can be made in the Page Setup dialog
+Verify that Mozilla Maintenance Service is properly installed on a custom installation type
+Verify that folders can be  properly deleted from all standard points.
+[Vista] Using the App/Run from Installer: Set and Confirm Firefox as default browser
+Select the Show/Hide new tab grid
+Verify Page Info UI
+"[Windows-only] - Try to save to a removed, removable drive"
+"[apptabs] Verify ""Move to group"" is not be an option on the right-click menu for app tabs"
+"Confirm removing a feed reader from ""Applications Details"""
+[security] Don't rewarn on reload
+"""Search Bookmarks and History"""
+Context menu: Cut
+"Verify bookmark restore using ""Choose File"""
+Active / paused downloads - Open Containing Folder / Show in Finder
+Content Handling - Webcal Using Local Application
+Verify text zoom size persists after restarting
+Tags - Add a tag to a bookmark - 'check-box' via bookmark edit dialog
+[video] Play fullscreen video
+Open an item from history in a new tab that opens in the foreground
+Escape (ESC) should dismiss autocomplete and undo entered text
+"""Open with..."" downloads"
+Verify tab drag and drop when using tab scrolling
+"Star/favorites button should be replaced with a ""Go"" arrow when typing"
+[awesomebar:tabmatches] Switch to Tab with scrolling tabs
+Verify navigation buttons appear correctly
+Don't show star icon for visited (but NOT favorited) autocomplete URLs from an RSS / live bookmark feed.
+Password Manager post-submit bar
+reorder via drag and drop
+META webpage redirect
+[History] Delete entry via the history sidebar
+Add a bookmark via Location Bar Star (single click)
+Location bar encoding in copy/paste
+Browser security tests
+Search Cookies
+Print a PDF document
+Verify handing of malformed feeds
+"[groups] Close a group using ""X"" button"
+Verify Shockwave Player functionality
+Verify that bookmarks can be opened in a new window from all standard points.
+Plugins tab: Enable/Disable plugins reflect changes in about:plugins
+Open a site from the New tab page
+[addons:extensions] Uninstall a restartless extension
+Tags - Add multiple tags to a bookmark - 'check-box' in the Library
+Confirm that TextArea fires onchange event
+Enable smooth scrolling
+[sessionstore:privacy] Restore a private browsing session
+Launch in Safe Mode
+Tab focusing behavior
+[Bookmarks] Default bookmarks (en-US) appear in Bookmark interfaces
+[awesomebar] Load page via Awesomebar results
+Main Menu Toolbar items
+[addons:plugins] Uninstalling a Plugin
+[Windows-only] Preference to disable anti-virus scanning
+[security] onUnload script tailgating
+Report a broken web site
+Verify the context menu items of an active download
+Content Handling - Geo Microformat
+[pseudoClassLock] Node Operations Menu
+[groups] Titles in the expanded stack
+[security] Page Image Permissions
+[sessionstore] Zoom
+Clear Private Data - Download History - don't clear
+[awesomebar:tabmatches] Switch to Tab after detaching a tab
+Content Handling - Remove An Application
+[groups] Move to Group
+[security:addons] Allow installation of an add-on once
+Verify items are sorted by column.
+[tabbedbrowsing] Inactive tab has X button
+[fullscreen] Tab view
+Pref UI
+[security:certificates] Verify Security Devices UI
+Basic Printing using a Local Printer
+[History] Search history items in the sidebar
+Browser restart with opened PDFs
+[Mac] Verify minimize button functionality after entering full screen mode
+Verify handling of Podcast Feeds
+Get more search engines
+Confirm Feed Reader First-Run UI
+Verify Scroll buttons change state when tab is dragged over them
+Meta Elements captured on bookmark creation
+[apptabs] Verify unpinning an App tab
+Scroll on pages containing IFRAME
+Open an RSS feed in tabs
+Start up
+Verify USAtoday loads correctly
+Move from Offline mode back Online
+Zoom in/out
+Confirm that Clear Recent History does not trigger master password prompt
+[groups] Windows key does not activate Search
+[fullscreen] Video - WebM
+Disable Extension
+Open search by keyboard shortcuts
+Verify not showing the Downloads Window when downloading a file
+Verify title display with more than 100 characters
+Add a new bookmark via context menu of Personal Toolbar
+Verify that a bookmarks file is being detected and is being displayed at the appropriate places.
+Verify no flicker when scrolling windowed plugins living out of process
+customize toolbars viewed
+"[geolocation] Verify Share Location ""Block"" pref in Page Info"
+Using a client side feed reader to read RSS feeds
+[security] Default security preferences
+Top Site - Yahoo
+Verify Show/Hide of columns.
+Tags - Add multiple tags to a bookmark - 'typed text' in the Library
+[Windows Only] Confirm Exit Survey
+Get Addon: Cancel Search
+Confirm Password Manager functionality after Clearing Private Data
+Cancelled/failed download - context menus
+[Mac] Verify that clicking done in toolbar customization panel does not hides parent window
+[sessionstore] Disable Restore from Crash
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 400 bytes"
+Confirm edit menu shortcuts work in Save file picker
+browser.bookmarks.autoExportHTML set to false does not write to bookmarks.html on exit
+Indeterminate download progress/status
+"Migrate from 3.0 -> 3.5, ensure that we autocomplete against History and Bookmarks"
+Install a theme
+Remove Search bar
+[Mac] Confirm Printing plugin on OS X on trunk does not cause crash
+Content Handling - Remove an Invalid Handler
+[groups] Moving tab sets around
+[search] Add a MozSearch search engine
+Test the default Yahoo! Web Mail Handler
+[addons:manager] Disable/Enable Extensions
+Verify searching history items works
+Tags - Remove a tag from a bookmark - 'check-box' via bookmark edit dialog
+Tags - Verify Approriate Tags are Added to the Bookmark
+Find updates on disabled extension
+Restore from Restart after Extension Update
+Autocomplete strips extraneous whitespace
+Check that the service is not used when updating Firefox on a limited user account
+All Tab options checked
+Completed download - context menus
+[awesomebar:tabmatches] Switch to Tab in another monitor
+restore form - non-ssl and ssl PRIVACY_NONE
+Verify basic drag and drop
+Open a new window
+[groups] Create a new group - drag 
+[sessionstore] Session restored using about:blank as homepage
+[sessionstore] Tab history of blank tabs after restore
+Search through your history
+Drag/Drop a site from another application
+[clean up profile] Reset Firefox with a diverse list of addons
+Dynamic update of Location Autocomplete list
+Search topics in Help
+Web console height is persistent
+"In Right-to-Left builds, ensure popups for site identity and bookmarks star hang the correct direction"
+[sessionstore] Clear Recent History overrides Session Store
+Multiple tags in autocomplete
+[Mac-only] Ensure no flashing in the location bar
+Middle-clicking folder appends tabset
+check safebrowser server names
+WebM video Playback
+"Form AutoComplete respects source for autocomplete=""off"""
+Verify no private browsing content shown when switching browsing modes
+Manage search engines (Verify adding keywords)
+Verify about:privatebrowsing in regular browsing mode
+Verify that Windows builds are signed
+[sessionstore:privacy] Logged into HTTPS
+Invoke Master Password
+"Confirm Print selection ""total number of pages"" when printing scaled output"
+"[security:addons] EV-cert remains at page load, after refresh"
+Tags - Verify consistent tags after cut/paste of bookmark in all standard point
+Install Move MediaPlayer and watch tv episodes
+Use mouse to focus search bar and start a search
+On hover display
+"""Clear List"" button - removal functionality"
+Title and Windows taskbar progress status
+[security:certificates] Bogus certificate blacklisting
+Install and test Real Player
+[Win-only] Check that profile manager doesn't prevent start of Firefox
+make sure microsummary updates
+Manage search engines (Cancel)
+[Vista] Using the OS: Set and Confirm Firefox as default browser by using Vista Default Program Setting
+[addons:manager] Restart prompt appears when restarting after an addon change
+"Verify ""Remember history"" is default setting for new profile"
+[security] Import a certificate
+Don't show inactive stars in the location bar for non-bookmarked sites
+open page source via context menu
+Verify drag and drop to reorder items.
+Install the Viewpoint Media Player (win and mac only)
+Reorder search engines - Move Up/Down Buttons
+Bookmark keyword search
+[Windows] Confirm Turning High Contrast Mode on/off
+Check if locally-stored list of phishing sites is being used
+[sessionstore] Scroll position after crash
+Manage search engines (Reorder with Move Up/Down buttons)
+"Verify defaults for pref ""Never Remember History"""
+Verify that the focused tab is offset in bold when using List All Tabs
+[security:certificates] Verify Revocation List UI
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 6.0 bytes"
+Test SVG getScreen functionality
+[sessionstore] Restore a specific window
+Separators - Verify that separators are properly added and deleted.
+[awesomebar:tabmatches] Switch to Tab awesomebar appearance
+Scroll using PgUp/PgDown
+Confirm Passwords entered with caps lock on are transmitted as such
+[Mac] Verify Flash 10.1 accepts text input with Cocoa events
+Add an OpenSearch plugin
+Proper display of Help contents.
+Verify adding keywords to your search engines
+Warn if opening multiple tabs preference (enabled)
+[sessionstore] Safe-mode after crash displays error page
+[igc] Incremental garbage collection is enabled
+Load entered URL rather than the autocompleted URL (specific case)
+Opening search results in a new tab
+"Autocomplete results should remain when still matching, rather than collapsing and rebuilding"
+[security] Warn about viewing an encrypted page containing unencrypted information
+Clear Private Data
+Migrate from Mozilla (Seamonkey) or Netscape
+Confirm Text Only View
+Verify that folders can be created within other folders from all standard points
+"Verify Clear Recent History time option ""Everything"""
+[spdy] Gmail
+User-modified bookmark titles should show in autocomplete
+Select a tab using the List All Tabs button
+[pseudoClassLock] Change the pseudo-class style
+Add the Italian dictionary and then perform a spell check
+Verify Plug In Finder when plugins are missing
+[sessionstore] Scroll position opening bookmark during restore
+[Mac] Confirm RSS preview is visible when Safari is the default reader
+Verify download manager list is cleared when switching in/out of Private Browsing mode (window closed)
+[security:safebrowsing] safebrowsing data download progress
+"Mixed https/http content shouldn't display green, verified Larry UI"
+Verify that the Download Panel does no affect the state of custom toolbars
+[History] Clear Recent History time options and Detail pane
+Basic Printing using a Network Printer
+[safari-migration] Run Firefox 14 for the first time import window - Safari is not running
+[pseudoClassLock] Links
+Show controls on startup for audio track
+Install QuickTime and watch trailers
+Resizing the browser window should keep URL bar-autocomplete dropdown area constrained
+Verify Clear Recent History default time option
+"CMD/CTRL+Enter for auto-adding ""www."" and "".com"" to entered domains"
+Verify Clear Recent History clears site preferences
+[fullscreen] Hotkey
+Verify various methods to close the Downloads dialog
+Turn off Pref to Show Search Suggestions
+"Verify ""Save and Quit"" is the default when closing a browsing session with multiple tabs"
+Test against a Turner Media video plugin
+Restore Session after Abnormal Exit
+Macintosh Window menu
+Find toolbar Sound Code Test
+[clean up profile] Close the profile clean up confirmation dialog
+[History] Open History in the sidebar
+"Confirm pref ""Subscribe to the feed using Use Other"""
+[sessionstore:tabmatches] Switch to tab for unloaded tabs
+Paste link into the Library
+"Autocomplete matches for ""t"" in ""http"""
+[pseudoClassLock] Text Inputs
+Referrer / TLD display
+Run basic popup blocking tests
+"Search: matching on name, completed file size, completed time, and referrer"
+Using the App/Run from Installer: Set and Confirm Firefox as default browser on Vista
+Verify keyword bookmarks usability after restart
+"Corrected URL should load, rather than its uncorrected, suggested autocomplete"
+[security] Don't submit unencrypted information on opt-out
+[addons:extensions] Update an old version of a restartless extension
+[awesomebar:tabmatches] Switch to Tab after clearing recent history
+[fullscreen] Video - Zooming
+[tabbedbrowsing] Verify tab scrolling when opening a lot of tabs
+[security:certificates] Disable SSL
+Scroll using UP/DOWN keyboard 
+"[search] Verify ""Clear Search History"" for the search bar"
+Confirm Applet News Scroller functionality
+Deletion of Passwords in a row
+Retry a cancelled download
+[sessionstore:privacy] Logged into HTTP
+[fullscreen] Persona
+Verify Apple loads correctly
+Use keyboard+click to open a link in a new tab
+Remove an exception to Offline Content
+Autodiscovery of OpenSearch search engines
+Get Addon: Caching Search results
+[sessionstore] Restore specific tabs
+[geolocation] Always Allow Sharing Location
+Enable Cookies/All Sites/Ask Me Every Time
+Set home page to current pages (tab set).
+Keyboard navigation in Help.
+Clear Private Data should clear Open Location autocomplete results
+Auto-resume of files cancelled on quit
+Open File
+[Win 7] Confirm Firefox opens in Private Browsing mode from Jump List
+Active download - selection order after deletion of Completed items
+[sessionstore] Clear Recent History clears Window closure history
+scrolling with a touchpad
+[spdy] Google Translate
+[clean up profile] Reset the Firefox profile after restoring the OS
+Extension or Theme Homepage
+[Windows] Setting IE as the default browser->Then Back to Firefox
+No start page migration (Don't import anything)
+Exceptions/Remove Site & Remove All Sites
+Plugin notification bar: Outdated
+[Windows] Confirm correct window restore size while closing a maximized window
+Verify that deleting a bookmark removes it at all standard points.
+Verify ESPN loads correctly
+Verify search bar stays resized after removing the resizer
+[apptabs] Insertion pointer in the correct location
+Highlight find results
+Blocklist extensions (windows only)
+[awesomebar:tabmatches] Switch to Tab with CTRL+ENTER
+Multiple Undo Tab Closure from History menu
+try to drag and drop items into a live bookmark folder
+Enable Cookies/All Sites/Allow Sites to Set Cookies
+Verify no quit dialog box appears when the user closes the browser
+Display of canvas elements 
+Verify that bookmarks can be opened in a new tab from all standard points.
+Verify Top Extension : Adblock
+Tags - Remove a tag from a bookmark via context menu in Recent Tags
+[Mac] Confirm edit menu shortcuts work in Save file picker
+[groups] Search filter - match tabs from other windows
+[sessionstore] Confirm window size/position saved after exit
+Verify that changes to properties are saved over restart.
+Confirm that the site can't add any more content (200 MB limit)
+Always show the tab bar by default
+Disabling Cookies
+WebM video context menu controls
+Add no title page to Bookmarks
+[clean up profile] Reset a Firefox profile with sync
+[security] Verify enabling FIPS asks for Master Password
+[search:manager] Manage search engines (Reorder with Move Up/Down buttons)
+Test XMLHttpRequest to provide suggested search terms
+Verify hotkey assigned standard points
+Paused download - context menus
+Verify deletion of a password
+Verify clearing saved form information
+[sessionstore] http-auth not displayed on about:sessionstore
+Verify drag and drop to reorder columns
+Download a PDF file
+Firefox 1.5 Profile with RSS Feeds -> Firefox 2
+[groups] Pinning last Tab as AppTab does not switch to other groups
+Confirm deleting bookmark with instance of a tag removes the tag
+Selection retention after clicking on buttons/controls
+Get Addon: Clearing Search results
+[sessionstore] Attempt to restore a private browsing session
+"Check anti-phishing warning ""Ignore this warning"""
+Check for & install extension update
+[security:larry] Display and Close
+Plugin notification bar: Blocklisted
+"Ensure Download Manager reports correctly when it hits GB, MB per-second rates"
+Default Vista download directory - migrated profile from 1.5/2.0.0.x
+Plugins tab: Un-Installing a plugin
+"smoke test designMode (a.k.a. midas) as it is used by gmail, blogger.com, and others"
+[security] Rewarn on forward/back
+[security] Confirm Explanatory Text for Secure Connection Failed (Unknown Issuer)
+[addons:extensions] Restartless extension works after restart
+Download activity progress (basic functionality) in the status bar
+[sessionstore:privacy] HTTPS form data
+Address Field and Go button
+Verify SSL sites load after switching back to regular browsing from Private Browsing
+[Not Mac] Confirm auto-hide toolbars in full screen mode
+[sessionstore] Window positions after a crash
+[search] Middle-Click on suggestion should open results in a new tab
+Verify handling of RSS 2.0 feed
+Verify export of bookmarks.
+Add a feed by clicking on the XML icon
+Talkback installed
+[sessionstore] Restore session after multiple crashes
+Modify original item between copy and paste
+"[addons:manager] Homepage of extensions, themes, and plugins"
+Drag the favicon from the URL bar to the home icon
+Externally Handled Content
+detach tab from a window and drop onto another window
+[groups] Panorama  shortcuts inactive on first run of Firefox
+Confirm First/Last Sort Order in Error Console
+Test file upload via web interface/POST
+Removed download entries should not be searchable
+Downloads manager: download location
+Ask me every time/Show/Hide Details
+Create and save a query
+Verify no prompt appears when clearing Private Data and closing Firefox
+Test bookmark editing via hotkey
+[fullscreen] Zooming
+Adaptive learning matching
+"Test that if using a limited user account does not install the service, nor prompt to install the service."
+[Mac] Verify entering private browsing menu item with no windows open
+Positioning of the web console
+[History] Clear Browsing History
+[Windows only] Ensure Java Console is present
+New downloads appear at the top of the DM listing
+Verify Open in Tabs from the Recently Closed Tabs menu
+[groups] Returning from Private browsing 
+Verify Tab context: Reload All Tabs reloads all tabs
+Resize favicons for tag matches in autocomplete
+Manage search engines (Restore Defaults)
+Pause a ogg video
+Copy Video Location
+Plugin Check for updates
+Handle OS Shutdown sanely on Windows/Linux
+"Verify preference ""When using the location bar, suggest: nothing"""
+Context menu: Undo
+[Mac] Verify leaving private browsing menu item with no windows open
+[Win Vista] Test applying updates on a Windows Vista machine for a Limited account while the UAC is off
+Helper Functions 
+Verify handling of Top Ten Feeds
+top site - cnn.com
+[groups] Closing tab groups
+Verify view image [canvas]
+Open a bookmark in a new tab in the background.
+Open Connection Settings dialog.
+[sessionstore] Restore Session error page
+"Test ""Downloads Complete"" alert notification & link - with DM set to auto-close on completion"
+Confirm clearing Offline website data using Clear Recent History
+Software update dialog wait for idle before prompting
+Test applying updates having the preference app.update.service set to true/false
+"Verify Share Location ""Always Ask"" pref in Page Info"
+Autodiscovery of RSS feed icon (if code is present)
+[groups] Display current tab set's name in browser window
+Location bar should encode parentheses on copy
+Close Help Search.
+Certificates: Validation
+Verify Page Info UI on page with geolocation
+Search - Create and save a query
+Show Cookies
+Check that the anti-phishing warning comes up when sidebars are showing
+[Linux] Double-clicking the URL bar should place text in the X selection
+Verify that creating a new folder properly makes a folder at all standard points.
+Context menu: Delete
+Confirm Spell Check functionality in form fields
+Copy Download Link
+[spdy] Disable SPDY
+Plugin notification bar: Missing
+default security preferences
+[sessionstore] Restore all tabs
+[groups] AppTabs from normal browsing not present in Private browsing
+"Splitter/resizer present between the location and search bars, by default"
+Display the left document navigation panel
+Enable Extension
+Local HTML page saving
+safebrowsing is enabled by default
+Verify the appearance of the Panel Download Manager having personas or themes installed
+Confirm Explanatory Text for Secure Connection Failed - Single Error
+[search:manager] Manage search engines (Reorder by Drag and Drop)
+Clear Browsing History
+browser.bookmarks.autoExportHTML set to true writes to bookmarks.html on exit
+Verify basic drag and drop 2
+[security] Disable warnings from warning
+[addons:themes] Change Theme
+Toolbar Customization - Check for JS Errors
+Migrate from Mozilla (SeaMonkey) or Netscape
+Remove a search engine
+Confirm Javascript to Java communication via Liveconnect
+Add Offline Content
+[groups] Working with stacks of thumbnails
+[toolbar] Set homepage via drag & drop tab
+Various methods to close the Downloads dialog
+Verify no hang when Clear History on shutdown pref set
+[clean up profile] Clean up a clean profile
+[clean up profile] Kill the Firefox process while Firefox is being reset
+Restore Home Page to default
+Verify default bookmarks with a fresh profile (en-US)
+"Verify extension, theme, and plugin context menu"
+Delete key should trigger Uninstall
+"[security:certificates] ""Get me out of here"" from error page"
+Verify Clear Recent History time options and Detail pane
+"Verify ""Restore Natural Order"""
+"Test ""Ask me where to save every file"" Downloads preference"
+Verify various permissions are disabled when in Private Browsing mode
+Most Visited (Bookmarks Toolbar folder) with top 10 frequently-visited sites
+Switching tabs with the keyboard (using Ctrl)
+safebrowsing files are updated at least every half hour
+[spdy] Google Calendar
+Get Addon: Installing
+[sessionstore:cascade] Restore custom number of tabs
+Verify autoscrolling preference
+[fullscreen] Video - Flash
+[search:manager] Manage search engines (Verify adding keywords)
+Opening the Downloads dialog
+[groups] Closed tab is reopened in the correct group
+Verify Color Management
+[groups] Last accessed tab is displayed on top of stack
+pause and resume an ogg video
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 0 bytes"
+customize icon/text preference
+Deletion and automatic next-selection of autocomplete entries
+[awesomebar:tabmatches] Open a new tab with ALT+ENTER
+Plugins/Puzzle Piece Confirmation if Plugin is not present and Installation of Plugin
+Context menu: Copy
+Restore Start Page
+"Verify Cut, Undo, Redo."
+[addons:manager] Drag and Drop Installation of Extensions and Themes
+Search - Search all bookmarks when in the tags folder
+Preview a lightweight theme from personas.com
+Confirm Print-selection places text in the proper position
+Tab list functionality
+Multiple Undo Tab Closure from context menu
+[groups] Thumbnails in Panorama
+"Set focus to search, then create and save a query"
+Verify that the panel's buttons work as expected
+Clear Recent History - Download History
+Options (Preferences) dialog state retention
+Plugins tab: Disabling a plugin
+[Linux-only] - Open Containing Folder shouldn't open file with associated viewer
+[privatebrowsing] Upload paths not saved
+[sessionstore:tabmatches] Switch to tab after undo close tab
+[groups] Indicate group count in Group Your Tabs button
+Get more search engines/start using it right away
+History from menu
+[apptabs] Verify closing an App Tab with keyboard command
+Launch Add-ons manager
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, All bytes"
+Verify tool-tip event on mouseover for various buttons
+[security:addons] Remove add-on installation exception
+[awesomebar:tabmatches] Open page by typing a URL
+Drag text/a URI to the location bar
+Verify text zoom size is independent when switching tabs on different websites
+[apptabs] Verify App tabs do not overlap
+Check if remote list of phishing sites is being used
+[Mac] Start Firefox in Safe Mode using Option Key
+Verify changing icon size works
+Tags - Remove a tag from a bookmark - 'delete text' in the Library
+Autodiscovery of OpenSearch plugins
+Stop and Reload buttons
+Verify that Mozilla Maintenance Service is properly installed on a standard installation type
+Populate recently used themes in theme manager
+Content Handling - Incorrect Application
+[security:safebrowsing] safebrowsing files are present in new installations
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox 12.0 bytes"
+Open new tab page from Panorama
+Verify saving form information can be turned off
+[security:certificates] Add Exception certificate URL always left-to-right
+[sessionstore][Mac] Verify blank after crash from window-less state
+[Bookmarks: Tags] Remove a tag from a bookmark - 'check-box' via bookmark edit dialog
+"Access ""View Page Info"" from Context Menu"
+Verify that separators are properly added and deleted.
+[prefsUI] Restore Home Page to default
+[addons:themes] Install a Theme
+[addons:manager] Manually update all Add-ons
+Verify item functionality in Navigation Toolbar
+Plugin tab: Disabled state of Java plugin is remembered after a restart
+Clear Site Preferences using Clear Recent History
+Verify that correct tooltips are shown for Bookmarks Toolbar items
+[security:safebrowsing] Disable Attack sites and Forgeries
+Save a password->then blacklist the site
+[Mac] Verify Cmd+{ and Cmd+} shortcut to switch tabs
+Enable Cookies/All Sites/Until they expire
+Verify about:privatebrowsing / about:sessionrestore favicon does not get reset
+[Windows] Confirm that Firefox is set as the default using the installer
+Switch print orientation for pages containing canvas elements
+Verify Ctrl/Cmd+Shift+P keyboard shortcut for Private Browsing mod
+Tags - Verify case-sensitivity to tagged bookmarks
+Make sure Space Bar Action is not reversed
+"Livemark feed URIs should show up as ""bookmarked"" (gold star on) in the URL bar and in URL bar autocomplete search results"
+[sessionstore:panorama] Restore to panorama view after crash
+"Examining Cookie Detail (Name, Content, Host, etc)"
+Send an ogg video
+[Not Mac] Confirm Full Screen mode
+Allow a specific site to display popups
+Clicking the star icon shouldn't focus/select the location bar
+"Test ""Downloads Complete"" alert notification & link - with DM set NOT to auto-close on completion"
+[sessionstore:tabmatches] Switch to tab after theme install
+Drag and dropping page-proxy icon (favicon) to an empty / populated toolbar
+Add an RSS feed/Livemark
+[security:larry] Non-secure site displays grey
+Tags - Rename a Tag
+View the contents of a saved search query in the sidebar
+Uninstall a Theme
+Verify changes can be made in the Page Setup dialog without setting printer
+[Linux] Ensure Firefox works well using different system theme
+[sessionstore] Undo Tab Closure from context menu
+Download activity progress (extended functionality) in the status bar
+Main Menu of Options (Preferences)
+[search] Add an OpenSearch search engine
+[prefsUI] State retention
+Verify search bar resizing persists across restarts
+Correct focus retention with completed download alert
+Verify pressing the Enter bar after entering a URL in the Location Bar works
+Larry UI - neither identify nor location verified (grey icon)
+Verify Quit works
+"Honoring ""Show me a preview"" preference"
+Verify removing items from the Navigation toolbar
+Add an OpenSearch search engine
+WebM video Playback Scrolling
+Use a Web based Feed Reader as Default Feed Reader
+Detach tab from a window and drop onto another window
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 8.0 bytes"
+Clear Browsing History using Clear Recent History
+[addons:extensions] Uninstall Extension
+Confirm window size/position saved after exit
+[Windows] Make sure we don't offer the same update again
+Moving tabs with the keyboard
+"[security:safebrowsing] Warning bar ""Get me out of here"" button"
+Verify autocomplete selects and sorts in password manager
+[security:larry] Mixed https/http content shouldn't display green
+Set a bookmark as home page
+"Search: ""[term 1] [term 2] [term 3]"" should only yield complete match"
+[Windows-only] Save Page As... with long filenames/paths
+[sessionstore:deferred] Restore previous session with resume_from_crash disabled
+Change theme
+[sessionstore] Restore from Restart after Firefox Update
+[awesomebar] Indication of bookmarks in matched results
+[groups] Tab group creation
+[addons:themes] Native Window Controls unaffected by Persona
+CNN
+Search: opening a local file from search results
+Verify web page printing works.
+[groups] Animation for creating new tab
+Help Us test hardware acceleration and layers
+"Certificates: view, backup, delete, restore"
+"Migrate from 3.0 -> 3.6, ensure that we autocomplete against History and Bookmarks"
+[sessionstore:cascade] Active tab during restore
+Context menu: Paste
+"Confirm pref ""Applications Details"""
+Top Site - Amazon
+Closing tabs with the keyboard
+Context menu: Select All
+Access to the Location bar Autocomplete list
+Show partially-matching tags in autocomplete results
+Folder annotations should be kept intact for delete / undo transactions
+Manage search engine (Remove)
+Performance check
+Web Console is available
+Blocked popup icon context menu
+restore form - ssl PRIVACY_ENCRYPTED
+Add a bookmark via Main Menu
+Scroll distance is 3 lines
+"Verify elements in ""View Page Info"" Window"
+Install Flash/Shockwave Using Plugin Finder Service
+Uninstall Blocklisted extensions
+Double-clicking application in the file-handling dialog should launch it
+Verify that the Download Indicator it's temporarily shown on the Tab bar when the Navigation Toolbar is disabled
+[apptabs] Verify tearing away an App tab
+[addons:themes] Install a Persona
+Titlebar should be cleared when completed downloads have been auto-cleared
+Search - Verify focus switch to search bookmarks bar
+[security] FIPS checksum verification
+Confirm Print Selection respects top page margin
+"Completed download - ""Open Containing Folder"" (Win/Linux) / ""Show in Finder"" disabled for deleted file"
+Disallow any plugins that use XPinstall method
+Verify that bookmarks' drag and drop to any other standard point.
+[security] Warn about submitting unencrypted information
+Start Firefox with a blank home page
+Ensure large favicons (over 32kb) show up in URL bar autocomplete
+Ligature matching
+Verify about:support functionality
+Verify Show All History
+[addons:themes] Uninstall a Theme
+Restart Firefox button after installing an extension
+[fullscreen] Maps
+Allow JavaScript
+"File | Save Page As, ""Web Page, complete"""
+Content Handling - Add a Handler
+Verify passwords can not be saved at blacklisted sites
+Drag and Drop Installation of Extensions and Themes
+Verify drag and drop to reorder items
+[sessionstore] Save your tabs for next time (Cancel)
+Recover from missing or corrupt place.sqlite
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox 11.0 bytes"
+[sessionstore] Clear Recent History clears Tab Closure history
+Hitting Escape (esc) should reset scroll-view position
+Confirm Canvas.drawImage method
+Install a lightweight theme
+Drag and Drop bookmark and non-bookmark items in Bookmarks Manager
+[awesomebar:tabmatches] Switch to Tab for bookmarked site
+Initial thumbnail display
+Double-clicking tab strip after close tab should spawn new tab
+Match case option
+Undo and Redo move of Library items
+Confirm Work Offline pref is retained after restart
+[geolocation] Test browsing with wifi geolocation
+Tags - Remove a tag from multiple items of history - 'check box' in the Library
+Confirm out-of-bounds menu click closes context menu
+Tags - Remove tags from a history item - 'check box' in the Library
+Verify that a link dragged to bookmarks is properly added and is displayed at the appropriate places.
+[sessionstore:tabmatches] Switch to tab after about:sessionrestore appears
+[sessionstore] Forget about this site
+[addons:themes] Persona Install Notification 
+Tags - Add multiple tags to a bookmark - 'typed text' via bookmark edit dialog
+Verify display of Download Manager while downloading a file
+Detach tab from window and drop onto desktop
+View source window menu options
+"Verify that when both the Navigation Toolbar and the Tab bar are disabled the Download Panel is shown, without the anchor, near the default anchor position."
+"Verify preference ""When using the location bar, suggest: History"""
+Recently Closed Tabs - favicons
+"Verify ""Clear history when Firefox closes"""
+Extension Preferences (Options)
+[sessionstore] Restore previously blank tab
+[pseudoClassLock] Lock pseudo-classes for multiple items
+Verify search bar resizer functionality
+Breakpad installed
+Verify that disabling and enabling the new Download Manager does not 
+"Downloads manager: Pause, Resume, Cancel and Retry"
+"[sessionstore] Verify ""Save and Quit"" is the default when closing a browsing session with multiple tabs"
+Separators - Verify separators drag and drop consistency
+"Verify CSS background when ""no-repeat"" is used"
+Migrate from Internet Explorer (IE)
+Check anti-malware warning
+"Test ""Downloads Complete"" alert notification & link"
+[Bookmarks] Verify deleting a bookmark removes it at all bookmark interfaces.
+[sessionstore] Undo Tab Closure from History menu
+Main Menu: Bookmarks items
+[security:safebrowsing] safebrowsing files are updated at least every half hour
+Autocomplete dropdown: default max of 6 items
+"Verify preference ""When using the location bar, suggest: Bookmarks and History"""
+scroll using the space bar
+Save multiple entries to same form field.
+Default Vista download directory - new profile
+[Bookmarks] Changes to item properties should apply correctly.
+"Safebrowsing UI - Confirm availability of menu item ""This isn't a web forgery"""
+Undo Tab Closure from context menu
+Confirm key commands work when a plugin has the focus
+adding history item to Bookmarks toolbar
+Open a link in new tab in the foreground
+Pop-up Blocking
+"Clear Cookies by Using ""Clear Private Data"""
+Confirm videos play from news sites
+Manually add a feed via copy/paste in Manage Bookmarks
+[groups] AppTab after drag and drop
+Pin a site on the grid
+Verify that special URIs are immediately excluded from history
+Set up and Import settings from an existing browser into Firefox
+Verify saving of a password
+[geolocation] Share location
+"CTRL/CMD+SHIFT+Enter for auto-adding ""www."" and "".org"" to entered domains"
+Resizing the input field 
+[Win Vista] Test applying updates on a Windows Vista machine for a Limited account while the UAC is on
+Quit prompt appears when restarting addon change with multiple tabs
+Loading Javascript from History is blocked and user warned
+[pseudoClassLock] Pseudo-class lock cleared when closing the Inspector
+[Mac OS]scrolling with a Magic Mouse
+[awesomebar:tabmatches] Switch to Tab with no results
+Forward and Back buttons in Help.
+[Mac] Verify Print to PDF functionality
+Verify handling of Radio Feeds
+[prefsUI] Set Home Page to current page
+[groups] Tab order changes are saved
+Confirm search within bookmarks works in sidebar and Library
+Cert overriding from SSL error pages - Add Exception
+iframe src file/page-redirect
+Verify that bookmarks can be drag and dropped to the Bookmarks Sidebar.
+Associate a file type or protocol with Firefox
+[tabbedbrowsing] Progress meter displays in location bar for active tab
+Confirm clearing only Offline website data using Clear Recent History
+Drag/drop a site from the bookmark bar
+Verify that a link dragged to bookmarks is properly added to all standard points.
+Verify adding icons to the Navigation bar
+Multiple virus-scan vendor functionality
+[sessionstore] All windows restored with quick exit
+[sessionstore] Testing setup
+[security:safebrowsing] Anti-phishing warning appears when sidebars visible
+[addons:extensions] Install Multiple Extensions
+"Drag and drop to a minimized, Windows-taskbar resident Bookmarks Manager window"
+Web Console is available for chrome content
+Verify Breakpad client functionality
+Clearing Cookies/Remove All Cookies
+[sessionstore:panorama] Restore to a tabgroup after restart
+[search] Search suggestions
+[sessionstore:privacy] Deferred HTTPS login
+Title and URL text size inspection
+Tags - Verify details pane consistency between items
+Console helper functions can take multiple arguments
+[sessionstore:tabmatches] Switch to tab for recently closed window
+Ensure http://gmail.com shows in History sidebar/menu
+Download activity progress (tooltip / location)
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox bytes"
+Keyboard shortcuts to focus search bar and start a search
+Browsing option: Don't always show the tab bar
+Plugins tab: Disable plugin - UI changes
+[tabbedbrowsing] Drag & drop a tab into an input field
+[awesomebar:tabmatches] Switch to Tab for multiple tabs with the same URL
+Verify that new or completed downloads are visual notified by brief animation near the Downloads Indicator (button).
+Use Live Bookmarks as Default Feed Reader
+[sessionstore] Restore Session after Abnormal Exit
+Install Mozilla Maintenance Service on a Custom Setup type
+Ask me every time/Deny
+"[addons:manager] Verify Extension, Theme, and Plugin context menus"
+Resume deleted file
+Permission UI -Install Extensions or Themes
+Main Menu: History items
+Underline first match in both title and URL
+[geolocation] Geolocation popup notification
+Drag n Drop no title page to Bookmarks Toolbar
+"Verify preferences for Clear Recent History are different from ""Clear history when Firefox Closes"""
+[Windows-only] - downloaded document files should appear in Recent Documents / Recent Items
+Browsing option: Always show the tab bar
+Quick Find (FAYT)
+[awesomebar] Dismiss using ESC
+[Windows] Confirm Auto Hide in Full Screen Navigation mode
+Bookmarks when restored when using  menu selection
+Search Passwords
+Blank location bar URL after toolbar customization of an about:blank window
+Confirm state of history sidebar is preserved after abnormal exit
+Quick Find link and word
+Download .EXEs / .DMGs
+[sessionstore] Undo Close Window
+[sessionstore] Restore multiple tabs via right click
+Autodiscovery of MozSearch plugins
+Update from an older Firefox version and navigate to the new tab page
+Paste an insane amount of characters into the URL bar
+Page-triggered downloads from an opened and then self-closed window
+"Verify ""Import"" is disabled during Private Browsing mode"
+Keyboard shortcuts are active
+Open Firefox with URL Shortcuts / Verify Firefox opens via Web shortcut
+Custom Installation
+[Windows] Confirm Full Screen or Kiosk Mode
+[awesomebar:tabmatches] Switch to Tab for an App Tab
+[security] Verify loading a PKCS#11 Device
+safebrowsing files are present in new installations
+Verify Print Selection shows headers/footers
+[addons:themes] Populate List of recently used Persona
+[Win XP] Test applying updates on a Windows XP machine for a Limited account
+"[Windows only] Test ""Downloads Complete"" notification & link"
+[Mac] Verify form widgets and scrollbars don't get grayed when clicking on menu bar or download stack
+"Verify window resizing ""plays nice"" with tab scrolling"
+Check that the UAC prompts for permission when the Mozilla Maintenance Service is uninstalled prior update
+Clear Offline Website Data using Clear Private Data
+Verify handling of RSS 0.92 feed
+[Windows] Pave over install -> 3.x over 2.x in same directory
+Drag n drop a history item to the desktop
+Mac only: Migrate from Safari
+Verify page count when using print preview
+Verify saving of a password (bogus password)
+"[Mac-only] Two-window focus-switching/cursor/caret-enabling, involving plugin"
+[sessionstore:cascade] 3 tabs restore at a time after crash
+[sessionstore] Crash before all tabs are loaded
+Verify that Navigation Toolbar can be shown/hide
+[search] Contextual Menu - Search for selection
+[groups] pinning/unpinning an app tab
+"Verify ""Clear Search History"" from the Search Box"
+[prefsUI] Available panels
+Session Store Testing Setup
+[History] Forget About This Site via the sidebar context menu
+[addons:manager] Opt-Out of automatic Add-on Updates
+[groups] Interaction between Panorama and AppTabs
+[awesomebar:tabmatches] Switch to Tab in private browsing mode
+Set Master Password
+[search:manager] Get more search engines
+Resetting a Master Password
+Verify passwords are not saved when we select not to save them.
+Verify Top 10 Alexa Sites (US)
+"Verify ""Recently closed tabs"" updates"
+Disable find as you type (FAYT)
+[addons:blocklist] Softblocking an installed Extension
+[sessionstore:privacy] Deferred HTTP form data
+Verify Tab context: Undo Close Tab
+Remove all icons from the toolbar
+[addons:themes] Persona in Fullscreen
+Security notification
+Active download - Cancel
+Save Page As...Text Files
+Verify icon functionality in toolbar
+[sessionstore] Save your tabs for next time
+[groups] Firefox menu button shows in Panorama view
+Location bar DNS failure keyword lookup
+File size information
+Verify Forget About This Site the history sidebar context menu
+Opening the identity box (Larry) shouldn't select the location bar's address
+Warn if opening too many tabs preference (disabled)
+Remove a site from the grid
+[sessionstore] Normal exit without saving session
+[addons:manager] Behavior in Safe Mode
+"Content Handling - Use a Valid, Fake Handler"
+[Mac] Verify we show notification bar when user tries to use a 32-bit plugin
+"[apptabs] Verify ""New Content"" highlight in App Tab"
+Search - Look for bookmarks with multi-word tags
+[sessionstore:cascade] Only restore active tab
+Verify new foreground tab is made visible when using tab scrolling
+(Ctrl/Cmd)+Shift+Click on Open All in Tabs
+Acid 2 test
+Dragged URLs with trailing spaces should be truncated/stripped
+Verify text zoom size is dynamically updated across windows
+Verify import of bookmarks.
+[sessionstore:tabmatches] Switch to tab after crash
+Confirm full zooming works with SVG
+Verify copy and paste operations in Google documents
+Create a (post) keyword search bookmark
+Test some Java sites
+[tabbedbrowsing] Drag & drop tab onto new-tab button duplicates tab  
+Uninstall the Mozilla Maintenance Service
+Verify tab scrolling when opening a lot of tabs
+Normal Exit
+view custom toolbar
+Top Site Youtube
+Verify handling of RDF Feeds
+verify basic wifi geolocation
+[Vista] Using the App/Run from Shortcut: Set and Confirm Firefox as default browser
+[Windows] Confirm Keyhole (combined back/forward) for small icons mode
+[clean up profile] Reset while private browsing
+"Test ""Downloads Complete"" alert notification and link"
+Allow installing of secure extensions
+Confirm plugin blocklisting functionality is working
+Verify that the findbar text is cleared when leaving private browsing mode
+Open a new tab
+[search] Scrolling mouse wheel should switch search engine
+Install and test Adobe Flash
+[security] Quit Firefox using FIPS under Private Browsing
+Navigate the PDF using invalid page numbers
+Uninstall Extension
+Open & dismiss Error Console
+[bookmarks] Verify star rendering
+No Updates Found
+[addons:blocklist] Install a blocklisted Extension
+Home button in Help.
+Confirm JavaScript popup
+Restore from Restart after Firefox Update
+[groups] Create a new tab
+[pseudoClassLock] Select element with mouse
+Page containing JS error
+Context Menu: Tab
+Verify bookmark restore from a previous JSON backup
+Cancel Printing Operation
+[sessionstore:forms] non-ssl and ssl PRIVACY_NONE
+"user's mimeTypes.rdf, localstore.rdf, bookmarks.html file permissions should be ensured automatically"
+Verify showing the Downloads window when downloading a file
+Repeated messages in the Web Console
+Visited-count/preferred result matching
+Enable an extension then switch panes
+Verify new background tab is made visible when using tab scrolling
+"Replace previously valid but now invalid login credentials with correct credentials, and log in"
+[Bookmarks]  Create a bookmark (folder) for a group of tabs
+Full screen mode lightweight personas
+"[sessionstore] Close tab before loaded, Undo Close Tab history"
+[safari-migration] Show All Bookmarks import window - Safari is running
+[addons:extensions] Installation of Extensions which need a Compatibility Update
+Allow Java
+Drag and Drop Favicon to desktop to create page shortcut.
+[Windows Vista] Make sure users that are not Member of the Administrator group don`t receive Update Notifications
+[spdy] Google Maps
+Disable Session Store
+"Verify defaults for pref ""Use Custom Settings for History"""
+detach tab from window and drop onto desktop
+Certificates: Revocation Lists
+View cookies button in page info's security tab should pre-filter the cookies dialog
+Mute a ogg video
+[sessionstore] Shutdown OS
+Verify Master Password is not used at every startup
+Embedded Window Media Player plugin test
+Attempt to install Add-On from non-AMO site
+WebM video Playback detach tab
+"restore form - non-ssl PRIVACY_ENCRYPTED, 400 bytes"
+Closing Firefox before all tabs are loaded shouldn't ruin session state
+Add a bookmark for a frame
+[geolocation] Never Share Location
+"Test that if the service is already installed, installing an update of a lower service number will NOT replace the old service."
+[security] Warn about viewing a low-grade encrypted page
+Check multiple search suggestion providers
+[security] Page Info Security tab via right-click
+Verify deleting multiple bookmarks
+Tags - Drag and drop a tag container to another standard point
+[sessionstore:privacy] Deferred HTTPS form data
+"SHIFT+Enter for auto-adding ""www."" and "".net"" to entered domains"
+Verify Print-Selection prints multiple pages
+"Keyboard shortcut for setting focus to the ""Search..."" textfield"
+Create a (get) keyword search bookmark
+Verify that folders can be moved to different areas in the bookmarks toolbar
+Uninstall Blocklisted extensions (windows only)
+Scrolling with a mouse
+[sessionstore] about:rights notification shown with session restore
+[addons:manager] Details View of extension exposes information from addons.mozilla.org
+[fullscreen] Menu
+Confirm Default Browser information in Default Programs
+[sessionstore:tabmatches] Switch to tab after add-on install
+Verify you are Working Offline
+[clean up profile] Reset Firefox from the Troubleshooting Information page
+[groups] Cancel tab search
+Manage search engines (Reorder by Drag and Drop)
+Triple-clicking on empty tab strip where new tab appears shouldn't close it
+Open All in Tabs
+open & close Find toolbar
+"[History] Defaults for pref ""Use Custom Settings for History"""
+Keep downloads in their current position when resuming bottom-most download
+Separators - Verify that separators move logically within their standard point.
+verify you can prevent geolocation
+Verify that folder contents can be opened as tabs.
+Page Info - Security
+Title should appear before URL in autocomplete
+Test the default 30Boxes Webcal handler
+Change Cache size
+[Mac] Confirm file extension remains the same after drag and drop
+Verify reordering of tabs by drag and drop
+POST-submit downloads
+Verify that the Download Panel has a fixed width and a limited height
+Inline deletion of saved login information.
+Open the Download Manager Dialog
+data: about: jar: URLs
+Search: migrated/converted downloads with other-OS file path
+[win] Migration of multi-tab homepage from Internet Explorer
+Verify handling of ATOM feeds
+Basic Form Completion
+Confirm ability to right click bookmarks on the toolbar
+"Verify preference ""When using the location bar, suggest: Bookmarks"""
+Verify text zoom size applies to only one domain
+Tags - Add a tag to a bookmark - 'typed text' via bookmark edit dialog
+Search Engine dropdown icon ugliness where iconsize!=16x16
+[addons:manager] Check for individual Add-on Updates
+Clear Private Data clears Undo Tab Closure history
+Verify Top Extension : Cooliris
+Confirm clearing Cache and Cookies does not clear the Offline Cache Data
+Search: dynamic updating of results' state
+Verify zoom setting is remembered across tabs
+WebM video Trick-Play
+Anti-virus blocked downloads
+[security:certificates] Verify Validation UI
+safebrowsing warnings using live reported pages
+[clean up profile] OS restore after cleaning up a Firefox profile
+Warn if opening too many tabs preference (enabled)
+[search] Use mouse to focus search bar and start a search
+[spdy] Attach a large file to a Gmail email
+[spdy] HTTP/1.x based SSL not using SPDY
+Verify that the Download Indicator is present in the navigation bar
+Verify empty bookmarks folder consistency
+Check warning dialog links take you to the right pages
+"Search: Ensure ""Active"" downloads retain their UI/functionality on substring matches."
+[security:certificates] Date Expired
+Tags - Delete tags from column list in Library
+Update Add-ons Manager window to reflect when new plugin is installed
+Confirm download resumes when switching to Private Browsing mode
+"Autocomplete matches for ""h /"""
+[groups] Clicking on results from other pages opens correct window
+[sessionstore:panorama] Restore to a tabgroup after crash
+Confirm Silverlight plugin content shows
+[spdy] Google Books
+[sessionstore:cascade] Reload all tabs
+[Bookmarks] Open a set of tabs from bookmark folder contents
+Verify saving and filling in form information
+[sessionstore:deferred] Restore previous session with resume_from_crash disabled after crash
+Access recently visited locations list
+[spdy] Google News
+Check dismissing anti-phishing warning dialog by closing it
+Set a user-specified home page
+[Mac] Verify when closing window in private browsing that regular session is restored
+[igc] IGC with Cycle collector running
+[sessionstore] about:config filter restored
+Customize screen area with a lightweight theme
+Verify opening standard points via hotkey
+Stop Private Browsing Mode
+Verify enabling FIPS asks for Master Password
+Import Opera settings
+[security:certificates] Verify View Certificates UI
+Confirm Reloading a tab using the List All Tabs button
+[security] SSL Domain Display in status bar
+Favicons / site icons should remain constrained in Open Location dialog autocomplete
+Verify Page Info UI on page with RSS feed
+[igc] Incremental garbage collection is disabled
+Plugins tab: Ensure no duplicate plugin listings
+[security:safebrowsing] safebrowsing is enabled by default
+"[Mac] Verify ""Dvorak - Qwerty ⌘"" keyboard layout"
+[sessionstore] Restore a tab that was once an App Tab
+[awesomebar] Indication of matched results
+Add a Sherlock plugin
+[search] Clicking on magnifying glass opens search engine homepage
+"Confirm pref ""Live Bookmarks in Firefox"""
+[security:larry] EVCert site displays green
+[Win 7] Test applying updates on a Windows 7 machine for an Administrator account while the UAC is off 
+Test browsing with wifi geolocation
+[Mac] Confirm Quit from Dock menu while modal javascript dialog displayed
+"Confirm pref ""Subscribe to the feed using Application"""
+Disable Restore from Crash
+[spdy] Close Google Plus
+"restore form - non-ssl PRIVACY_ENCRYPTED, All bytes"
+Check Security Warnings
+[TechTools:PageInfo] Save Image from Page Info via Access Key
+"restore form - non-ssl PRIVACY_ENCRYPTED, 0 bytes"
+No JS errors when opening customization dialog
+[search] Add a Sherlock search engine
+"Content Handling -  Use a fake, invalid handler"
+[Mac] Confirm windows maintains active appearance when Javascript alert called
+[security:larry] Long EVCert identifier truncates
+Work Offline
+Navigate through the PDF 
+Autodiscovery of MozSearch search engines
+[awesomebar:tabmatches] Switch to Tab after private browsing mode
+Confirm no JS exception with Empty href
+Verify Clear Recent History is disabled in Private Browsing mode
+Navigate FTP
+Quit shouldn't prompt when downloads are cross-session resumable
+Active download - Pause
+[sessionstore:privacy] Deferred HTTP login
+Using a web based feed reader to read RSS feeds
+Top Site - MSN
+[Bookmarks] Add a bookmark via Main Menu
+Larry UI - Identity verified (green icon)
+Verify that disclosure triangles and folder icons are in sync.
+[groups] Titles during zoom in transition
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 5.0 bytes"
+Sort folder contents by name
+Tooltips
+AwesomeBar stops searching when there are no results
+Verify Migration of data from Mozilla/Netscape
+Confirm absence of quit dialog when Show my windows and tabs option is set
+[History] Show All History in the Library
+"Clear Cookies by Using ""Clear Recent History"""
+[sessionstore] about:blank not restored from link
+Setup Opera Migration environment
+[groups] Accessing tabs from a stacked group 
+[sessionstore] Restore App Tab retains position
+Resumed helper-app downloads
+Certificates: Verification
+Confirm Explanatory Text for Secure Connection Failed - Multiple Errors
+PDF loads properly
+Drag and drop to create a Bookmarks toolbar bookmark
+Verify Downloads items Open & Remove functions
+Plugins tab: Display Plugin Versions
+"Confirm pref ""Preview in Firefox"""
+Verify showing the Downloads Window when downloading a file
+[sessionstore:forms] non-ssl and ssl PRIVACY_FULL
+Check anti-malware  settings
+Add a MozSearch search engine
+Start Private Browsing Mode
+"[Mac] Verify Full Screen button displays correctly in ""Show: Text"" mode"
+[Mac OS X/Linux-only]: Non-writable directory
+[sessionstore:privacy] HTTP form data
+Links from other applications open a new tab
+[addons:manager] All Add-ons can be disabled with the Safe Mode dialog
+Verify Bookmarks open a new tab when the current tab is an app tab
+Select All - context-menu item and shortcuts
+"[search:manager] Turn off ""Show search suggestions"""
+[Win] Verify Firefox Button menu items
+Verify pref to automatically start in Private Browsing mode
+Select a new Extension update to install
+Refresh a Live Bookmark
+Bringing up and dismissing autofill menulist
+Notification of enabled session restore in Panorama
+[security:addons] Disable warning
+[security] Install add-on from trusted site should not warn
+[search] Check multiple search suggestion providers
+Access the Location bar with drop down list
+Drag thumbnails
+[sessionstore] Restore the previous session from about:home
+Verify option is enabled 
+Save your tabs for next time
+Confirm Copy Functionality in Error Console
+[geolocation] Verify geolocation token is cleared after allowing permissions via Page Info
+[sessionstore] Restore multiple tabs from crash (URLs typed)
+Security tab in Page Info
+Report Web Forgery
+[security:safebrowsing] Test the safebrowsing warning page
+[Mac] Main Menu: Firefox application item
+[security] Browser-specific security tests
+"""Always ask me where to save files"" Downloads preference"
+[igc] Run JavaScript with IGC disabled
+"Confirm with session restore enabled, default browser startup check occurs"
+Install PDF Viewer addon
+Confirm Search Resizer does not squash Toolbar Navigation Buttons
+Artifacts in APNG frames
+[addons:extensions] Installation from an FTP server
+[Vista] Confirm Default Browser information in Default Programs
+(Windows Only) Setup IE Migration environment
+Verify restoring to the default toolbars
+[techtools:about] Credits via Access Key
+Open and close a new window with the location bar focused in the first one
+[sessionstore] Location bar responsive after restart
+Verify deleting entry from the history sidebar
+Clear button
+Search - Look through your history
+Shift+click on Open All in Tabs
+Start Firefox with a user-specified home page
+Paste an autocompleted URL and then go
+Find Previous & wrapping backwards
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, 7.0 bytes"
+[search] Keyboard shortcuts to focus search bar and start a search
+Verify Bookmark folders with the same name are not merged after import
+Add and Refresh a RSS feed (Live Bookmark)
+"Verify preference ""When using the location bar, suggest: History"" shows no bookmarks"
+WebM video Playback full screen
+[Mac] Verify customizing the toolbar more than once
+[sessionstore] Affect on video performance
+Add a Sherlock search engine
+Content Handling -  Try not to add a handler
+Confirm Printing in Landscape Mode
+Scrolling mouse wheel should switch search engine
+Mac Only: Cmd-K with no window open opens a new window
+Save a Web Page as Complete
+[pseudoClassLock] Delete Node
+Failed/invalid downloads
+WebM video Playback several tabs simultaneously
+"Verify ""Clear Search History"" for the search bar"
+Confirm Autoscroll cancels properly on second middle-click
+[sessionstore] Restore multiple tabs from crash (URLs loading)
+Verify closing the last tab will always close the window
+Uncheck the Software Installation Warning preference
+"With Firefox set as default, confirm default protocols are set"
+Completed download - Go to Download Page
+[clean up profile] Reset from safe mode
+Clicking on magnifying glass redirects to search homepage
+Instanceof function
+Tags - Remove tags from multiple history items - 'delete text' in the Library
+[sessionstore] Restore an App Tab
+[Win Vista] Test applying updates on a Windows Vista machine for an Administrator account while the UAC is on
+[security:safebrowsing] safebrowsing warnings using live reported pages
+Performance - time to open the Downloads window
+Exceptions
+Search: ensure top-level domains and schemes/protocols match search terms
+Verify relationship between separators and various view functionality
+Download a PDF document
+update theme
+Tags - Add a tag to a bookmark - 'check-box' in the Library
+[sessionstore] All windows restored after closing main window
+Favicon horizontal/vertical positioning
+Verify clearing form and search history
+[sessionstore] Multiple Undo Tab Closure from History menu
+Open a link in a new tab that opens in the background
+Confirm auto-hide toolbars in full screen mode
+[Win] Verify bookmark name when dragged and dropped from IE
+[addons:plugins] Disabled state of Plugin is remembered after a Restart
+"Tooltip for tab overflow button: ""List all Tabs"""
+Helper functions for window object
+Drag n drop a tab to any standard point
+Content Handling - Callto Protocol Using Local Application
+(Ctrl/Cmd)+Click on Open All in Tabs
+Popup Allowed
+[spdy] Google+
+[clean up profile] Cancel the Firefox reset
+[awesomebar:tabmatches] Switch to Tab after reordering tabs
+Manage search engines - Cancel
+"Confirm pref ""Subscribe to the feed using Bloglines, Yahoo or Google"""
+Invoking Master Password->No Certificates
+Verify that the properties feature works as prescribed for various items.
+[sessionstore:forms] ssl PRIVACY_ENCRYPTED
+"Confirm pref ""Always subscribe to this feed using Bloglines, Yahoo or Google"""
+[security:certificates] Certificate Authority Installation
+Plugins tab: Sorted plugins
+Check Anti-Phishing feature is installed and enabled by default
+Block the installing of un-secure extensions
+Check that toggling the local list versus the remote list will show the Anti-Phishing Privacy Policy
+PDF Viewer addon is used by default
+[security:safebrowsing] Test the safebrowsing drop-down bar
+Completed download - date/time as a tooltip
+Display embeded PDF
+Confirm search within bookmarks works in sidebar and bookmarks manager dialog
+Verify Top Extension : FlashGot
+Web Console in Private Browsing
+Indication of entered terms' match to autocomplete results
+Remove Offline Content
+[addons:extensions] Install a restartless extension
+[tabbedbrowsing:groups] Switching to an App-tab maintains grouping
+[security:addons] Manually add exception
+Confirm menulist within a panel often opens in front of the pane
+[groups] Directional keys in expanded stack
+[sessionstore:mac] Verify blank after crash from window-less state
+Recover from missing or currupt place.sqlite
+Switch between the document navigation views
+Autocomplete and favicons (site icons)
+"Queued / ""Starting ..."" downloads"
+Verify dragging text to the Search bar
+[windows only] Test that the Maintenance service is properly used when updating Firefox
+Open a history item in a new tab that opens in the background
+Contextual Menu - Search for selection
+safebrowsing UI for phishing and malware sites
+[security:larry] EVCert country code
+Firefox 2 Profile with RSS Feeds -> Firefox 3
+[groups] Undo Tab close
+Clear Private Data - Download History
+[Win 7] Test applying updates on a Windows 7 machine for an Administrator account while the UAC is set on the low level
+Download folder & saving via context menu
+Uninstall Firefox
+[Mac] Main Menu: Window item
+Get Addon: Recommended addons
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox 9.0 bytes"
+Add an exception to Offline Content
+Show/Hide Video Controls
+Report a Broken Web Site
+Print a Google Map
+Verify bookmark backup
+"[History] ""Remember history"" is default setting for new profile"
+Test drag & drop downloading
+[Mac] Use the toolbar control knob to hide/show all toolbars
+[Win XP] Test applying updates on a Windows XP machine for an Administrator account
+Confirm Page Info Security section shows site-specific saved passwords
+Confirm interoperation between Flash and IME
+Verify geolocation token is cleared when exiting private browsing
+Install a microsummary generator
+"Subscribe to an RSS feed using ""Subscribe to This Page"""
+Filenames with special characters should still be downloadable/saveable.
+Open File from Download Manager
+Tags - Add a tag to a bookmark - 'typed text' in the Library
+Certificates: import
+Do not allow Java
+Verify Tab context: New Tab opens a new Tab
+"Turn off ""Show search suggestions"""
+Pause downloads (instead of cancelling) when quitting
+Show star in location bar autocomplete dropdown for bookmarked sites
+Web Console behavior with html5 canvas
+Verify that it is not possible to drag and drop (or Move) a bookmark or folder onto itself or its immediate parent or child.
+Confirm Default Browser information in Default Programs after update
+Cancelled/failed download - Go to Download Page
+Bookmark a site from the context menu
+Load bookmarked javascript uri in various manners
+Drag a tab to all tabs dropdown in different window
+[sessionstore] Readonly location bar remains readonly after restore
+[Win 7] Test applying updates on a Windows 7 machine for an Administrator account while the UAC is set to default
+[addons:manager] About Dialog
+Verify saving and deletion of a password
+Download in Private Browsing mode
+[Windows-only] Shouldn't have option to open/run .EXEs
+[addons:manager] Automatically update all Add-ons
+Display a PDF which contains images
+[Mac-only] Shouldn't be able to horizontally scroll
+Verify context menu consistency between hover events
+Certificates: Device Manager
+Confirm 50 MB Warning Notification
+Small downloads don't show in download manager when already open
+Reloading the page
+Open print dialog from various access points
+[addons:manager] Buttons for sorting Search Results
+[spdy] Google Docs
+Printing columns
+Clicking on magnifying glass opens search engine homepage
+[igc] Incremental garbage collection stays enabled
+Confirm file picker functionality
+Installing an Extension on localsystem
+replace icons with text
+"Verify ""Always On"" Pref does not show last session"
+Various file handling
+[security] Warn about viewing an encrypted page
+Ensure autocomplete works after removing and then restoring the location bar
+Performance - user-interface responsiveness
+"Extension, Theme, and Plugin Homepage"
+[groups] Name a tab group
+"Shouldn't show .app in application name using ""Open with"""
+Verify that failed downloads can be removed from the Downloads panel
+Display a PDF which contains different font colours
+verify advanced wifi geolocation
+Back and Forward buttons
+[addons:toolbar] Verify the add-on bar is displayed automatically when installing an add-on that adds content to it
+Use a microsummary for a bookmark
+Enable Cookies/All Sites/Until I close Firefox
+[security:certificates] Add a Security exception using Preferences
+[sessionstore:deferred] Restore a previous session
+Reset Bookmarks to default in SafeMode
+Verify blacklisting sites.
+Confirm that UI dynamically changes when you switch choices
+[Mac only] Verify that the Download panel is displayed in a new window when neither the Tab Bar or the Navigation Toolbar are invisible
+"Copy, drag and drop to copy items in all standard points"
+Verify Top Extension : Adblock Plus
+Verify text zoom size is remembered across windows
+"Confirm pref ""Subscribe to this feed using Live Bookmarks"""
+[addons:extensions] Installation of a multi-package XPI
+[addons:extensions] Add-ons install permissions
+Add a Security exception using Preferences
+Search: ensure % and _ yield results.
+Completed download - display-sort order in the UI
+Verify handling of RSS 1.0 feed
+[groups] Apptabs do not bleed out of tab groups
+Choose your preferred language for display
+Drag n Drop a bookmark to the desktop from all standard points
+[fullscreen] Video - Ogg
+detach tab by drag and dropping onto its own content area
+All Tab options unchecked
+Tags - Remove a tag from a bookmark - 'check box' in the Library
+[addons:plugins] Add-ons Manager detects new installed Plugins
+Tags - Remove multiple tags from a bookmark - 'check-box' via bookmark edit dialog
+Do not allow JavaScript
+[awesomebar] Favicons in matched results
+[Bookmarks] Add a bookmark via Location Bar Star (single click)
+[addons:plugins] Enable / Disable of Plugins affects about:plugins
+[search:manager] Manage search engines (Cancel)
+[awesomebar:tabmatches] Switch to dragged tab
+"Retry of a cancelled, modified filename."
+[clean up profile] Finish the profile clean up
+Setting IE as the default browser->Then Back to Firefox
+Open and close the Quick Find bar
+Resume (not restart) a download after Firefox crashes
+Non Session-Restored downloads' behavior in Download Manager
+Search: dynamic updating of returned results
+[Mac] Confirm bookmarks with special unicode characters are imported from Safari
+[pseudoClassLock] Change website
+[sessionstore:tabmatches] Switch to Tab for a tab removed from about:sessionrestore
+Save Flash-containing page twice
+Undo Tab Closure from History menu
+Ask me every time/Allow for session
+Find in Page
+Authenticated downloads
+[sessionstore] Start a new session after abnormal exit
+make sure generated microsummary updates
+[addons:blocklist] Install/Uninstall blocklisted Extension
+Get Addon: See all addon Results
+View search plugins directory
+[sessionstore:cascade] 3 tabs restore at a time
+[clean up profile] Reset Firefox multiple times
+[Windows] Completed download - no double-click with right mouse button
+[techtools:pageinfo] Display audio/video tag content
+[security] Warn about leaving an encrypted page
+Correct progress status from Gmail
+"[apptabs] Verify ""Bookmarking All Tabs"" with app tabs"
+[geolocation] Learn more
+Main Menu: View items
+about:plugins
+History: advanced features
+Add a bookmark via Location Bar Star (double click)
+Verify closing a tab
+"[security:larry] ""More Information"" button"
+Web Console with RTL 
+Launch Migration Dialog
+[awesomebar:tabmatches] Switch to Tab in another tabgroup
+[addons:blocklist] Softblocking installed Plugins
+Play a ogg video
+Save an ogg video
+Get Addons: Search for addons
+Tooltip for truncated text
+Use a Client Feed Reader as Default Feed Reader
+Popup Blocked
+Show tag results in location bar autocomplete
+Verify handling of Video Podcast Feeds
+Plugins tab: Installing a plugin
+[addons:manager] Instances of the Add-ons Manager
+Drag n Drop a bookmark to text fields external to the browser
+Tags - Remove multiple tags from a bookmark - 'check box' in the Library
+Clear Offline Website Data using Clear Recent History
+Content Handling - Cross Domain Add is Disallowed
+[addons:manager] Keyboard shortcut to open the Add-ons Manager
+Save your tabs for next time (Cancel)
+Verify Opening the Downloads dialog
+[sessionstore] History sidebar state after force quit
+[awesomebar:tabmatches] Switch to Tab frecency
+Install and test Quicktime
+[security] Page Info Security Tab via status bar padlock
+Close Popup Blocking Windows
+Change default content Language
+[pseudoClassLock] Buttons
+[search] Open search results in a new tab
+Verify Tab context menu items
+[Windows] Verify that you cannot minimize Clear Recent History dialog
+Context Menu: Canvas element
+Completed download - single-digit date format
+[Win 7] Test applying updates on a Windows 7 machine for an Administrator account while the UAC is set on the high level 
+About dialog and about: page
+[geolocation] Prevent sharing location
+Larry UI - Click to Close
+[security:larry] SSL Cert site displays blue
+Tags - Remove a tag from a bookmark - 'delete text' via bookmark edit dialog
+Verify text zoom size is the same when switching tabs on same websites
+[groups] Esc on exposed stack ramains in tab view
+Verify Breakpad client functions
+Cancelled download - Pause then Retry
+Verify no loss of toolbar items after closing browser
+[addons:themes] Customize Toolbars with Persona
+Verify items are copy and pasted correctly.
+[groups] Restore tab groups after Force Quit / Crash
+WebM video Volume and Mute
+Plugins/Lego Piece Confirmation if Plugin is not present and Installation of Plugin
+[awesomebar] Web search via awesomebar
+"[sessionstore:forms] non-ssl PRIVACY_ENCRYPTED, Firefox 13.0 bytes"
+Tags - Add a tag to multiple history items - 'typed text' in the Library
+Start Firefox with a windows and tabs from last session
+[sessionstore] Save & Quit during computer restart
+Verify that a bookmark (folder) for a group of tabs can be created.
+Favicons in the location bar dropdown
+Using the OS: Set and Confirm Firefox as default browser by using Vista Default Program Setting
+[spdy] Google Search
+"Confirm ""Restore Defaults"" functionality in Search"
+Sorting Cookies by Cookie Name
+[sessionstore] Restart after installing extension
+cancel tab drag operation using esc key
+[security:addons] Remove all sites
+Switching tabs using the keyboard (Page Up/Down)
+Check thumbnail display
+Verify about:privatebrowsing in private browsing mode
+[groups] Zoom in/out animation
+Main Menu: Help items
+[Mac] Verify files are downloaded by default to Downloads folder/stack
+Basic Printing
+[Win 7] Test applying updates on a Windows 7 machine for a Limited user account while the UAC is on
+Set Home Page to current page
+Get Extensions and Themes
+Verify that folder twisties and folder icons are in sync.

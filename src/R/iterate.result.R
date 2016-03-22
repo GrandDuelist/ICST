@@ -21,17 +21,17 @@ iterate.result <- function(s=NULL,  # If calling this function a second time, th
   for(m in 1:length(names)){
     top_dir = "../../data/"
     testDir2=paste(top_dir,"lda_input_steps_to_perform/litmus_",names[m],"/",sep="");
-    clusterDir2=paste(top_dir,"cluster_reverse/litmus_",names[m],"/",sep="");
+    clusterDir2=paste(top_dir,"nhbd_cluster/litmus_",names[m],"/",sep="");
     
     #testDir2=paste(testDir2,"/",sep="");
     truthName2=paste(top_dir,"fault_matrix/steps_to_perform/litmus_",names[m],"/fault_matrix.txt",sep="");
     
     #truthName2=(truthName2,"/fault_matrix.txt");
-    dirname = paste(top_dir,"result_reverse/",kDir,sep="");
+    dirname = paste(top_dir,"nhbd_result/",kDir,sep="");
     if(!file.exists(dirname)){
       dir.create(dirname);
     }
-    filename = paste(top_dir,"result_reverse/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
+    filename = paste(top_dir,"nhbd_result/",kDir,"litmus_",names[m],"_",method,".txt",sep="");
     sink(filename);
     
     for(n in 1:iT)

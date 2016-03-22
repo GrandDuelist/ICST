@@ -2,10 +2,10 @@ import sys
 import os 
 import shutil
 
-folder_path =  "/home/zhihan/workspace/ICST/data/lda_input_steps_to_perform/litmus_rrr"
-version_list = ['V20','V30','V35','V36','V36_complete_web','V40','V50','V60','V70','V80','V90','V10','V11','V12','V13','V14']
+folder_path =  "/home/zhihan/workspace/ICST/data/rr_lda_input/litmus_rr_v13"
+version_list = ['V20','V30','V35','V36','V40','V50','V60','V70','V80','V90','V10','V11','V12','V13']
 
-vdersion_list_index= {}
+version_list_index= {}
 def read_version_duplicates(file_path):
     result = {}
     if not os.path.exists(file_path):
@@ -15,11 +15,12 @@ def read_version_duplicates(file_path):
         for line in duplicates:
             title_file_version = line.split("\t")
             version = title_file_version[2].replace('\n','')
-            one_summary  = {'file_path': title_file_version[1], 'version':version, 'version_index':
-                    version_list_index[version]}
-            if title_file_version[0] not in result:
-                result[title_file_version[0]] = []
-            result[title_file_version[0]].append(one_summary)
+            if version in version_list:
+                one_summary  = {'file_path': title_file_version[1], 'version':version, 'version_index':version_list_index[version]}
+                if title_file_version[0] not in result:
+                    result[title_file_version[0]] = []
+                result[title_file_version[0]].append(one_summary)
+        duplicates.close()
     return result
 
 def remove_files_list(duplicates,folder_path,version_list=None):

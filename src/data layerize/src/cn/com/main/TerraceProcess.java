@@ -98,6 +98,7 @@ public class TerraceProcess extends FileProcess {
 			for(int j=0;j<i;j++){
 				StringArray stringArray=new StringArray();
 				stringArray.setVersionName(this.versions_orig[i]);
+				System.out.println(this.versions_orig[i]);
 			 	stringArray.filesName=this.getStringArrayByIndex(i).filesName;
 			 	stringArray.setFilesNameOrig(this.getStringArrayByIndex(i).getFilesNameOrig());
 				stringArray.caculateTerraceStringArrayFeature(j+1);
@@ -129,7 +130,9 @@ public class TerraceProcess extends FileProcess {
 		writer.append("#total orig\t");
 		for(int i=0;i<VERSION_NUM;i++){
 			StringArray tmp= this.getOrigStringArrayByIndex(i);
+			if(tmp!=null){
 			writer.append(tmp.getFileNum()+"\t");
+			}
 		}
 		writer.append("\n");
 				

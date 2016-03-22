@@ -4,7 +4,7 @@ import java.io.File;
 
 public class EmptyClean {
 		
-	public static String FILE_PATH = "/home/zhihan/Workspace/STVR/data/TERRACE_STATISTICS/";
+	public static String FILE_PATH = "/home/zhihan/workspace/ICST/data/m_cluster/";
 	
 		public EmptyClean(){
 			

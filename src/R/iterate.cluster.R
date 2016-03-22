@@ -87,8 +87,9 @@ iterate.cluster.all <- function(itNum=100)
 {
   
   
-  methods=c("cluster_string","cluster_random","string","random","lda");
-  #methods=c("random");
+  #methods=c("cluster_string","cluster_random","string","random","lda");
+  #methods=c("cluster_random","string","random","lda");
+  methods=c("cluster_string");
   for(i in 1:length(methods)){
     
     dirName = paste(methods[i],"/",sep="")

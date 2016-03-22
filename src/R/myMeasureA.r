@@ -1,4 +1,4 @@
-require(gdata)
+
 
 measureA <- function(a,b){
   # Computes the Vargha-Delaney A measure for two populations a and b.

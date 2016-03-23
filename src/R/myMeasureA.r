@@ -1,4 +1,4 @@
-
+require(gdata)
 
 measureA <- function(a,b){
   # Computes the Vargha-Delaney A measure for two populations a and b.
@@ -45,7 +45,7 @@ myMeasureATran <-function()
                 #,"litmus_50",
                 #"litmus_60","litmus_70","litmus_80","litmus_90","litmus_10",
                 #"litmus_11","litmus_12","litmus_13");
-  fileDir = "../../data/result/result_100times/icst_result.xlsx";
+  # fileDir = "../../data/result/result_100times/icst_result.xlsx";
   versions = sheetNames(fileDir)
   
   results = list();

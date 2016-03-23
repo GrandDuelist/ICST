@@ -16,12 +16,18 @@ def removeDuplictes(dirPath, duplicates):
     for record in reader:
         if not summaryMap.has_key(record['Summary']):
             summaryMap[record['Summary']] = []
-        summaryMap[record['Summary']].append(PREFIX + str(record['Testcase ID'])+SUFFIX)
-        summaryMap[record['Summary']].append(PREFIX2 + str(record['Testcase ID'])+SUFFIX)
+        summaryMap[record['Summary']].append({'fileName': PREFIX + str(record['Testcase ID'])+SUFFIX,
+            'branch':record["Branch"]})
 
+        summaryMap[record['Summary']].append({'fileName': PREFIX + str(record['Testcase ID'])+SUFFIX,
+            'branch':record["Branch"]})
+
+    print summaryMap
+    
 
     for (summary, files) in summaryMap.iteritems():
         pos = 0
+        files.sort(lambda x,y : cmp(x['branch'],y['branch']))
         for fileName in files:
             if fileName in fileNames:
                 removeLeftFiles(pos,dirPath,files)
@@ -33,8 +39,7 @@ def removeLeftFiles(pos,dirPath, fileList):
     print fileList
     print pos
     for i in range((pos+1),len(fileList)):
-        print i
-        filePath = os.path.join(dirPath,fileList[i])
+        filePath = os.path.join(dirPath,fileList[i]['fileName'])
         if os.path.exists(filePath):
             # os.remove(os.path.join(dirPath,fileList[i]))
             os.remove(filePath)
